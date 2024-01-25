@@ -1,0 +1,96 @@
+------ NEW PROMPT ------
+#Prompt
+Audit Question:Report Details - Asbestos, Owner Maintenance and Defects, Accommodation - accurately filled out
+
+- Q: Time A: 12:10 PM
+- Q: Date A: Thu, May 04 2023
+- Q: Dwelling Type A: highset
+- Q: Total Area m2 A: 240-260
+- Q: Construction A: brick veneer
+- Q: Condition A: good
+- Q: Age of Home A: 7
+- Q: Roof Type A: custom orb - colour coated
+- Q:  A: Ambrose observed the property and found that there was significant impact damage to the garage door and brickwork.
+- Q: Asbestos Type A: No Asbestos
+- Q: Assessment Attended By: A: Insured 1
+- Q: Is there faulty workmanship that has caused the damage to the customer's property? A: No
+- Q: Is there a possibility for recovery? A: Yes
+- Q: Is there owner maintenance required? A: No
+- Q: Are there building defects on the property? A: No
+- Q: Does the customer require temporary accommodation? A: No
+- Q: Ask Insulation Bats? A: No
+
+#Instruction
+Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.
+
+#Output
+Auditors Note: Builders Observations accurately recorded | Auditors Score:1
+
+------ NEW PROMPT ------
+#Prompt
+Audit Question:Occupant/Insured details of event accurately captured - How, When, What
+
+- Q: Details Provided by the Occupant A: Insured advised that on the 1st may they had a courier that was dropping off there modem for the internet and when the courier driver got out of the car the truck started to roll down the hill into the insureds car and pushed the car into the garage door.
+- Q: Confirm the Event Date with the insured A: 2023-05-01
+- Q: Type of Claim A: Impact
+- Q: Attended By - Name:  A: Jarrad
+
+#Instruction
+Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.
+
+#Output
+Auditors Note: Pre-existing defects and damage not related to the claimed event accurately captured and labelled | Auditors Score:1
+
+------ NEW PROMPT ------
+#Prompt
+Audit Question:Builders Observations accurately recorded
+
+- Q: Is the damage consistent with the claimed event? A: Yes
+- Q: Were there Contents involved in the Claim?  A: No
+
+#Instruction
+Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.
+
+#Output
+Auditors Note:  | Auditors Score:0
+
+------ NEW PROMPT ------
+#Prompt
+Audit Question:Builders Conclusion - clear, concise, correct policy response, correct referral determination
+
+- Q: Policy Determination A: Accept
+- Q: Repairs Proceeding within Authorisation Limits A:  No - Exceeds D&C limit
+- Q: Conclusion A: Ambrose conclude that the resultant damage has been cause by a car going into the garage door at a bit of speed that has impacted the front brick columns and garage panel door. Ambrose was not a details of info about possible police reports.
+- Q: Policy Determination A: Accept
+- Q: Are there any engineers reports required for this claim? A: No
+
+#Instruction
+Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.
+
+#Output
+Auditors Note: Occupant/Insured details of event accurately captured - How, When, What | Auditors Score:1
+
+------ NEW PROMPT ------
+#Prompt
+Audit Question:
+
+- Q: Repair Cost A: Schedule of Rates
+- Q: Cost: $              inc GST A: $26,662.35
+
+#Instruction
+Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.
+
+#Output
+##No TSA Response##
+
+------ NEW PROMPT ------
+#Prompt
+Audit Question:Primary Causation accurately recorded
+
+- Q: Primary Causation: A: Impact
+
+#Instruction
+Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.
+
+#Output
+Auditors Note: Building Report Quality | Auditors Score:0
