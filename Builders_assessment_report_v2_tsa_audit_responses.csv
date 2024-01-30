@@ -6,8 +6,8 @@
 6,06. Photos clearly labelled,Passed,1
 7,07. Appropriate number and quality of photos per affected location,Passed,1
 8,08. Pre-existing defects and damage not related to the claimed event accurately captured and labelled,Passed,1
-9,"09. ",,0
-10,10. Building Report Quality,,0
+9,"09. ",Passed,1
+10,10. Building Report Quality,Passed,1
 11,"11. Occupant/Insured details of event accurately captured - How, When, What",Passed,1
 12,12. Builders Observations accurately recorded,Passed,1
 13,13. Primary Causation accurately recorded,Passed,1
