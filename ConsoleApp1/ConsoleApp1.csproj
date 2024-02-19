@@ -16,6 +16,9 @@
     <None Update="Builders_assessment_report_tsa_mappings_suncorp.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Update="builders_assessment_report_suncorp.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="tsa_audit_questions.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

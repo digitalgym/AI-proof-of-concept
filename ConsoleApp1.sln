@@ -9,8 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ai-reports-api", "ai-report
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Shared\Shared.csproj", "{043631AE-57BC-4D09-A5F4-F331A0941608}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{57EDF265-D7BD-4116-9256-5BF0C81E462B}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,10 +27,6 @@ Global
 		{043631AE-57BC-4D09-A5F4-F331A0941608}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{043631AE-57BC-4D09-A5F4-F331A0941608}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{043631AE-57BC-4D09-A5F4-F331A0941608}.Release|Any CPU.Build.0 = Release|Any CPU
-		{57EDF265-D7BD-4116-9256-5BF0C81E462B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{57EDF265-D7BD-4116-9256-5BF0C81E462B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{57EDF265-D7BD-4116-9256-5BF0C81E462B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{57EDF265-D7BD-4116-9256-5BF0C81E462B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

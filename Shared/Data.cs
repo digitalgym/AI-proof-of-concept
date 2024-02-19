@@ -1,5 +1,6 @@
 ﻿using CsvHelper;
 using CsvHelper.Configuration;
+using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Globalization;
 using System.Text;
@@ -10,6 +11,15 @@ namespace Shared
     {
         static List<dynamic> responseMappings;
         static List<dynamic> tsaAuditQuestions;
+        private static List<TSAAuditResponse> tsaResponses;
+        private static List<TechicianResponse> buildersResponses;
+
+        private static List<TrainigRow> rows = new();
+        private static string responsesMappingPath;
+        public static string jsonl;
+        public static string csv;
+
+        public static string connectionString = "server=192.168.200.28; database=Ambrose;User ID=sa;Password=Ambr0s3@kunda;MultipleActiveResultSets=True";
 
 
         public static string checklist = @"SELECT Item, ItemStatus, Score
@@ -49,13 +59,6 @@ AND (jq.Answer <> '') AND
 (ReviewRequest.Status = 'Complete')
 AND ReviewRequest.CreatedDateTime > DATEADD(MONTH, -12, GETDATE())
 AND j.InsurerBrand = 'Suncorp'";
-        private static List<TSAAuditResponse> tsaResponses;
-        private static List<TechicianResponse> buildersResponses;
-
-        private static List<TrainigRow> rows = new();
-        private static string responsesMappingPath;
-        private static string jsonl;
-        public static string connectionString = "server=192.168.200.28; database=Ambrose;User ID=sa;Password=Ambr0s3@kunda;MultipleActiveResultSets=True";
 
         public static TSAQuestion? getTSAQuestion(int tsaQuestionNumber)
         {
@@ -166,7 +169,54 @@ AND j.InsurerBrand = 'Suncorp'";
                 }
             }
         }
+        public static void CSVOutput(List<dynamic> tsaAuditQuestions, List<TSAAuditResponse> tsaResponses, IEnumerable<IGrouping<int, TechicianResponse>> groupedBuilderformresponses)
+        {
+            foreach (var group in groupedBuilderformresponses)
+            {
+                var trainingrow = new TrainigRow();
+                var groupId = group.Key;
+                var tsaQuestion = getTSAQuestion(groupId);
+                var tsaResponse = getTSAResponse(groupId);
 
+                if (tsaQuestion != null)
+                {
+                    var input = new StringBuilder($"Question: {tsaQuestion}");
+                    input.AppendLine("Answers:");
+                    foreach (var record in group) // builder responses that relate to the qudit question
+                    {
+                        var builderQuestion = record.Question;
+                        var builderAnswer = record.Answer;
+                        input.AppendLine($"{builderQuestion}: {builderAnswer}");
+                    }
+                    trainingrow.Input = input.ToString();
+
+
+                    trainingrow.Instruction = "Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.";
+
+
+                    var output = new StringBuilder("Agent:");
+
+                    if (tsaResponse != null)
+                    {
+                        var responseCleaned = tsaResponse.Note.Substring(3, tsaResponse.Note.Length - 3).Trim();
+                        output.AppendLine($"{responseCleaned} | Score:{tsaResponse.Score}");
+                    }
+                    else
+                        output.AppendLine("##No TSA Response##");
+
+                    trainingrow.Output = output.ToString();
+                    rows.Add(trainingrow);
+                }
+            }
+
+            using (StreamWriter writer = new StreamWriter(csv))
+            {
+                using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture))
+                {
+                    csv.WriteRecords(rows);
+                }
+            }
+        }
         private static List<TechicianResponse> JsonOutput(IEnumerable<IGrouping<int, TechicianResponse>> groupedBuilderformresponses)
         {
             List<TechicianResponse> rows = new();
@@ -254,26 +304,7 @@ AND j.InsurerBrand = 'Suncorp'";
 
         public static IEnumerable<TechicianResponse> GetResponses(string jobNumber)
         {
-            var tsaAuditQuestionsPath = "tsa_audit_questions.csv";
-            var responsesMappingPath = "builders_assessment_report_suncorp.csv";
-
-            var configuration = new CsvConfiguration(CultureInfo.InvariantCulture)
-            {
-                HasHeaderRecord = false,
-            };
-
-            //shouldn't need to change
-            using (var reader = new StreamReader(tsaAuditQuestionsPath))
-            using (var csv = new CsvReader(reader, configuration))
-            {
-                tsaAuditQuestions = csv.GetRecords<dynamic>().ToList();
-            }
-
-            using (var reader = new StreamReader(responsesMappingPath))
-            using (var csv = new CsvReader(reader, configuration))
-            {
-                responseMappings = csv.GetRecords<dynamic>().ToList();
-            }
+            loadMappingData();
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
@@ -298,6 +329,104 @@ AND j.InsurerBrand = 'Suncorp'";
                 }
             }
             return null;
+        }
+
+        private static void loadMappingData()
+        {
+            var tsaAuditQuestionsPath = "tsa_audit_questions.csv";
+            var responsesMappingPath = "builders_assessment_report_suncorp.csv";
+
+            var configuration = new CsvConfiguration(CultureInfo.InvariantCulture)
+            {
+                HasHeaderRecord = false,
+            };
+
+            //shouldn't need to change
+            using (var reader = new StreamReader(tsaAuditQuestionsPath))
+            using (var csv = new CsvReader(reader, configuration))
+            {
+                tsaAuditQuestions = csv.GetRecords<dynamic>().ToList();
+            }
+
+            using (var reader = new StreamReader(responsesMappingPath))
+            using (var csv = new CsvReader(reader, configuration))
+            {
+                responseMappings = csv.GetRecords<dynamic>().ToList();
+            }
+        }
+
+        public static void GenerateDataSetJsonl()
+        {
+            loadMappingData();
+            using (SqlConnection connection = new SqlConnection(Shared.Data.connectionString))
+            {
+                connection.Open();
+
+                using (SqlCommand command = new SqlCommand(Shared.Data.jobNumbers, connection))
+                {
+
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            var jobNmber = (string)reader[0];
+                            Console.WriteLine(jobNmber);
+                            tsaResponses = Shared.Data.AuditorsResponses(jobNmber, connection);
+
+                            if (tsaResponses.Count > 0)
+                            {
+                                buildersResponses = Shared.Data.TechnicansResponses(jobNmber, connection);
+                                //Add audit mappings to techicianl responses
+                                for (int i = 0; i < buildersResponses.Count; i++)
+                                {
+                                    //Add the grouping ID's to the builder responses dataset
+                                    var auditQuestion = responseMappings.First(_ => _.Field1 == buildersResponses[i].Index.ToString());
+                                    buildersResponses[i].AuditQuestion = int.Parse(auditQuestion.Field2);
+                                }
+                                var groupedBuilderformresponses = buildersResponses.GroupBy(_ => _.AuditQuestion);
+                                Shared.Data.JsonlOutput(tsaAuditQuestions, tsaResponses, groupedBuilderformresponses);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        public static void GenerateDataSetCSV()
+        {
+            loadMappingData();
+            using (SqlConnection connection = new SqlConnection(Shared.Data.connectionString))
+            {
+                connection.Open();
+
+                using (SqlCommand command = new SqlCommand(Shared.Data.jobNumbers, connection))
+                {
+
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            var jobNmber = (string)reader[0];
+                            Console.WriteLine(jobNmber);
+                            tsaResponses = Shared.Data.AuditorsResponses(jobNmber, connection);
+
+                            if (tsaResponses.Count > 0)
+                            {
+                                buildersResponses = Shared.Data.TechnicansResponses(jobNmber, connection);
+                                //Add audit mappings to techicianl responses
+                                for (int i = 0; i < buildersResponses.Count; i++)
+                                {
+                                    //Add the grouping ID's to the builder responses dataset
+                                    var auditQuestion = responseMappings.First(_ => _.Field1 == buildersResponses[i].Index.ToString());
+                                    buildersResponses[i].AuditQuestion = int.Parse(auditQuestion.Field2);
+                                }
+                                var groupedBuilderformresponses = buildersResponses.GroupBy(_ => _.AuditQuestion);
+                                Shared.Data.JsonlOutput(tsaAuditQuestions, tsaResponses, groupedBuilderformresponses);
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
