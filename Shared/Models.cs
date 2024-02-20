@@ -23,10 +23,16 @@
         public string Input { get; set; }
         public string Output { get; set; }
         public string Instruction { get; set; }
+        public int Score { get; set; }
     }
     public class Promt
     {
         public int Score { get; set; }
         public string Audit { get; set; }
+    }
+
+    public class MetaRow { 
+    
+        public string Prompt { get; set; }
     }
 }

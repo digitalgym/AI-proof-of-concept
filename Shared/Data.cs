@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Globalization;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace Shared
 {
@@ -59,6 +60,9 @@ AND (jq.Answer <> '') AND
 (ReviewRequest.Status = 'Complete')
 AND ReviewRequest.CreatedDateTime > DATEADD(MONTH, -12, GETDATE())
 AND j.InsurerBrand = 'Suncorp'";
+
+
+    
 
         public static TSAQuestion? getTSAQuestion(int tsaQuestionNumber)
         {
@@ -177,10 +181,11 @@ AND j.InsurerBrand = 'Suncorp'";
                 var groupId = group.Key;
                 var tsaQuestion = getTSAQuestion(groupId);
                 var tsaResponse = getTSAResponse(groupId);
-
+   
                 if (tsaQuestion != null)
                 {
-                    var input = new StringBuilder($"Question: {tsaQuestion}");
+                    var input = new StringBuilder($"Question: {tsaQuestion.Question}");
+                    input.AppendLine();
                     input.AppendLine("Answers:");
                     foreach (var record in group) // builder responses that relate to the qudit question
                     {
@@ -188,24 +193,84 @@ AND j.InsurerBrand = 'Suncorp'";
                         var builderAnswer = record.Answer;
                         input.AppendLine($"{builderQuestion}: {builderAnswer}");
                     }
-                    trainingrow.Input = input.ToString();
 
-
+                    string result = Regex.Replace(Regex.Replace(input.ToString(), ":{2,}|: :|:\r\n:", ":"), @"\?:", "?");
+                    trainingrow.Input = result;
+  
                     trainingrow.Instruction = "Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.";
-
 
                     var output = new StringBuilder("Agent:");
 
                     if (tsaResponse != null)
                     {
                         var responseCleaned = tsaResponse.Note.Substring(3, tsaResponse.Note.Length - 3).Trim();
-                        output.AppendLine($"{responseCleaned} | Score:{tsaResponse.Score}");
+
+                        //may need to remove score from prompt ??
+                        //output.AppendLine($"{responseCleaned} | Score:{tsaResponse.Score}");
+
+                        output.AppendLine(responseCleaned);
+
+                        trainingrow.Score =(int)tsaResponse.Score;
                     }
                     else
                         output.AppendLine("##No TSA Response##");
 
+                    
+
                     trainingrow.Output = output.ToString();
+
                     rows.Add(trainingrow);
+                }
+            }
+
+            using (StreamWriter writer = new StreamWriter(csv))
+            {
+                using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture))
+                {
+                    csv.WriteRecords(rows);
+                }
+            }
+        }
+
+        public static void MetaOutput(List<dynamic> tsaAuditQuestions, List<TSAAuditResponse> tsaResponses, IEnumerable<IGrouping<int, TechicianResponse>> groupedBuilderformresponses)
+        {
+            List<MetaRow> rows = new();
+            foreach (var group in groupedBuilderformresponses)
+            {
+               
+                var system = "Review Answers, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.";
+
+                var groupId = group.Key;
+                var tsaQuestion = getTSAQuestion(groupId);
+                var tsaResponse = getTSAResponse(groupId);
+
+                if (tsaQuestion != null)
+                {
+                    var input = new StringBuilder(tsaQuestion.Question);
+                    input.AppendLine();
+                    input.AppendLine("Answers:");
+                    foreach (var record in group) // builder responses that relate to the qudit question
+                    {
+                        var builderQuestion = record.Question;
+                        var builderAnswer = record.Answer;
+                        input.AppendLine($"- {builderQuestion}: {builderAnswer}");
+                    }
+
+                    var question = Regex.Replace(Regex.Replace(input.ToString(), ":{2,}|: :|:\r\n:", ":"), @"\?:", "?"); ;
+
+
+                    string? output;
+                    if (tsaResponse != null)
+                    {
+                        output = tsaResponse.Note.Substring(3, tsaResponse.Note.Length - 3).Trim();
+ 
+                        //trainingrow.Score = (int)tsaResponse.Score;
+                    }
+                    else
+                        output = "##No TSA Response##";
+
+
+                    rows.Add(new MetaRow { Prompt = $"<s>[INST] <<SYS>> {system}. <</SYS>> Question: {question} [/INST] Agent: {output} </s>" });
                 }
             }
 
@@ -255,7 +320,6 @@ AND j.InsurerBrand = 'Suncorp'";
                 {
                     while (reader.Read())
                     {
-
                         var index = (int)reader[0];
 
                         if (!new List<int> { 460, 730 }.Contains(index)) //some questions are not supported like file uploads, Cost
@@ -267,10 +331,8 @@ AND j.InsurerBrand = 'Suncorp'";
                                 Answer = (string)reader[2],
                                 Status = (string)reader[3],
                                 Brand = (string)reader[4],
-                                //AuditQuestion =  (string)reader[5] //Added via form mapping
                             });
                         }
-                        //Console.WriteLine(string.Format("{0}, {1}", reader[0], reader[1]));
                     }
                 }
             }
@@ -355,7 +417,7 @@ AND j.InsurerBrand = 'Suncorp'";
             }
         }
 
-        public static void GenerateDataSetJsonl()
+        public static void GenerateDataSet(OutputFormat format)
         {
             loadMappingData();
             using (SqlConnection connection = new SqlConnection(Shared.Data.connectionString))
@@ -364,7 +426,6 @@ AND j.InsurerBrand = 'Suncorp'";
 
                 using (SqlCommand command = new SqlCommand(Shared.Data.jobNumbers, connection))
                 {
-
                     using (SqlDataReader reader = command.ExecuteReader())
                     {
                         while (reader.Read())
@@ -384,49 +445,30 @@ AND j.InsurerBrand = 'Suncorp'";
                                     buildersResponses[i].AuditQuestion = int.Parse(auditQuestion.Field2);
                                 }
                                 var groupedBuilderformresponses = buildersResponses.GroupBy(_ => _.AuditQuestion);
-                                Shared.Data.JsonlOutput(tsaAuditQuestions, tsaResponses, groupedBuilderformresponses);
-                            }
-                        }
-                    }
-                }
-            }
-        }
 
-        public static void GenerateDataSetCSV()
-        {
-            loadMappingData();
-            using (SqlConnection connection = new SqlConnection(Shared.Data.connectionString))
-            {
-                connection.Open();
-
-                using (SqlCommand command = new SqlCommand(Shared.Data.jobNumbers, connection))
-                {
-
-                    using (SqlDataReader reader = command.ExecuteReader())
-                    {
-                        while (reader.Read())
-                        {
-                            var jobNmber = (string)reader[0];
-                            Console.WriteLine(jobNmber);
-                            tsaResponses = Shared.Data.AuditorsResponses(jobNmber, connection);
-
-                            if (tsaResponses.Count > 0)
-                            {
-                                buildersResponses = Shared.Data.TechnicansResponses(jobNmber, connection);
-                                //Add audit mappings to techicianl responses
-                                for (int i = 0; i < buildersResponses.Count; i++)
+                                switch (format)
                                 {
-                                    //Add the grouping ID's to the builder responses dataset
-                                    var auditQuestion = responseMappings.First(_ => _.Field1 == buildersResponses[i].Index.ToString());
-                                    buildersResponses[i].AuditQuestion = int.Parse(auditQuestion.Field2);
+                                    case OutputFormat.Jsonl:
+                                        Shared.Data.JsonlOutput(tsaAuditQuestions, tsaResponses, groupedBuilderformresponses);
+                                        break;
+                                    case OutputFormat.CSV:
+                                        Shared.Data.CSVOutput(tsaAuditQuestions, tsaResponses, groupedBuilderformresponses);
+                                        break;
+                                    case OutputFormat.Meta:
+                                        Shared.Data.MetaOutput(tsaAuditQuestions, tsaResponses, groupedBuilderformresponses);
+                                        break;
                                 }
-                                var groupedBuilderformresponses = buildersResponses.GroupBy(_ => _.AuditQuestion);
-                                Shared.Data.JsonlOutput(tsaAuditQuestions, tsaResponses, groupedBuilderformresponses);
                             }
                         }
                     }
                 }
             }
         }
+    }
+    public enum OutputFormat
+    {
+        Jsonl,
+        CSV,
+        Meta
     }
 }

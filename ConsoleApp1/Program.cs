@@ -10,12 +10,14 @@ namespace Console1App1
             string solutionDirectory = Directory.GetParent(executableDirectory).Parent.Parent.FullName;
 
             Shared.Data.jsonl = Path.Combine(solutionDirectory, "datasets", "dataset.jsonl");
+            //Shared.Data.GenerateDataSet(Shared.OutputFormat.Jsonl);
 
-            //Shared.Data.GenerateDataSetJsonl();
+            Shared.Data.csv = Path.Combine(solutionDirectory, "datasets", "dataset.csv");
+            //Shared.Data.GenerateDataSet(Shared.OutputFormat.CSV);
 
-            Shared.Data.jsonl = Path.Combine(solutionDirectory, "datasets", "dataset.csv");
 
-            Shared.Data.GenerateDataSetCSV();
+            Shared.Data.csv = Path.Combine(solutionDirectory, "datasets", "meta.csv");
+            Shared.Data.GenerateDataSet(Shared.OutputFormat.Meta);
         }
     }
 }

@@ -1,0 +1,85 @@
+Prompt
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Report Details - Asbestos, Owner Maintenance and Defects, Accommodation - accurately filled out
+Answers:
+- Date: Mon, Jan 29 2024
+- Time: 13:26 PM
+- Assessment Attended By: Insured 1
+- Dwelling Type: Lowset
+- Total Area m2: 200
+- Construction: brick veneer
+- Roof Type: concrete roof tile
+- Age of Home: 30+
+- Condition: good
+- Asbestos Type: No Asbestos
+- Does the customer require temporary accommodation? No
+- Policy Determination: Accept
+- Is there a possibility for recovery? No
+- Ask Insulation Bats? No
+ [/INST] Agent: Clear return note to Submissions team </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Occupant/Insured details of event accurately captured - How, When, What
+Answers:
+- Attended By - Name: Graig 
+- Type of Claim: Storm
+- Confirm the Event Date with the insured: 2024-01-04
+- Details Provided by the Occupant: Ambrose Construct Group attended site on behalf of the insurance company to assess the damages as part of the customers claim. The insured Graig advised that during storms of Xmas night, there was water leaking through the plaster ceiling cornice above the kitchen corner. The water leaked along the ceiling join and back along the cornice.
+
+Also discovered water leaking from the soffit above the front door. Advised that tree limbs landed on the side of the patio roof and caused damage to the side gutter and holes to the 3 clear skylight sheets.
+
+Graig also advised that he discovered broken tiles on the roof.
+
+
+ [/INST] Agent: Builders Observations accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Builders Observations accurately recorded
+Answers:
+- Details: Upon visual inspection of the damages and the property occupant statement it is evident that a storm event has caused damage to the patio roof and the excessive rain fall has caused damage to the kitchen ceiling and front door soffit.
+
+A tree limb has fallen on top the side of the rear patio causing damage to the side gutter and damage to the 3 skylights.
+
+The roof report has identified that the water leaks were caused by wind driven rain, poor workmanship and poor maintenance. The front soffit leak is a long term water leak from a bent valley iron. Repaired by the tiler at the time of inspection. The rear valley is blocked by leaf debris.
+
+As per PDS page 42. We Cover - Loss or damage caused by a storm.
+
+ 
+
+
+- Is the damage consistent with the claimed event? Yes
+- External Trades/ Repairs: Carpentry,Metal Roofing,Painting
+- Internal Trades/ Repairs: Painting,Plastering
+- Upload Image of Internal Damage: \\192.168.200.17\cherwellfiles\Jobs\20080662\12.Images\4. Form Images\BuildersAssessmentReportv2-1706501916298f2600b8a7f9abd5ac41bffc87077b.jpeg
+- Upload Image of Internal Damage: \\192.168.200.17\cherwellfiles\Jobs\20080662\12.Images\4. Form Images\BuildersAssessmentReportv2-17065019168ea8d8767772f64491e9e922e099a40d.jpeg
+- Upload Image of Internal Damage: \\192.168.200.17\cherwellfiles\Jobs\20080662\12.Images\4. Form Images\BuildersAssessmentReportv2-1706501916e421562610e2b2ae96d2f19b9a9f0f05.jpeg
+- Would the customer have been reasonably aware of the customer repairs required? No
+- Details of customer repairs required: Insured is too regularly clean the leaf debris from the valleys and gutters and install gutter guard
+- How soon do the customer repairs need to be completed? Immediately to avoid further damages
+- Were there Contents involved in the Claim? : No
+ [/INST] Agent: Primary Causation accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Primary Causation accurately recorded
+Answers:
+- Primary Causation: Storm
+ [/INST] Agent: Builders Conclusion - clear, concise, correct policy response, correct referral determination </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Builders Conclusion - clear, concise, correct policy response, correct referral determination
+Answers:
+- Are there any engineers reports required for this claim? No
+- Conclusion: Upon visual inspection of the damages and the property occupant statement it is evident that a storm event has caused damage to the patio roof and the excessive rain fall has caused damage to the kitchen ceiling and front door soffit.
+
+A tree limb has fallen on top the side of the rear patio causing damage to the side gutter and damage to the 3 skylights.
+
+The roof report has identified that the water leaks were caused by wind driven rain, poor workmanship and poor maintenance. The front soffit leak is a long term water leak from a bent valley iron. Repaired by the tiler at the time of inspection. The rear valley is blocked by leaf debris. To which the insured would not of have been reasonably aware 
+
+
+
+
+
+
+
+As per PDS page 42. We Cover - Loss or damage caused by a storm.
+
+ 
+- Repair Cost: Schedule of Rates
+- Repairs Proceeding within Authorisation Limits: Yes - Proceeding as Schedule of Rates
+ [/INST] Agent: Report Details - Asbestos, Owner Maintenance and Defects, Accomodation - accurately filled out </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Pre-existing defects and damage not related to the claimed event accurately captured and labelled
+Answers:
+- Are there customer repairs required? Yes
+- Are there building defects on the property? No
+ [/INST] Agent: Occupant/Insured details of event accurately captured - How, When, What </s>"
