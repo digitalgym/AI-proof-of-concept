@@ -1,5 +1,1596 @@
 Prompt
-"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Report Details - Asbestos, Owner Maintenance and Defects, Accommodation - accurately filled out
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Builders Observations accurately recorded
+Answers:
+- Date: Thu, Mar 02 2023
+- Time: 08:09 AM
+- Assessment Attended By: Insured 2
+- Dwelling Type: lowset
+- Total Area m2: 190
+- Construction: timber & masonry
+- Roof Type: custom orb - colour coated
+- Age of Home: 20
+- Condition: average
+- Asbestos Type: No Asbestos
+- Does the customer require temporary accommodation? No
+- Policy Determination: Refer to Insurer
+- Is there a possibility for recovery? No
+- Ask Insulation Bats? No
+ [/INST] Agent: Agent: Report Details - Asbestos, Owner Maintenance and Defects, Accommodation - accurately filled out </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Pre-existing defects and damage not related to the claimed event accurately captured and labelled
+Answers:
+- Attended By - Name: Natasha 
+- Type of Claim: Storm
+- Confirm the Event Date with the insured: 2023-01-15
+- Details Provided by the Occupant: We met on site with the Customer Natasha,  who has advised that recently during a large rain event in Mackay, water staining has occurred to the ceiling in the hallway, an area approximately 400 mm in diameter. Customer has engaged a roof plumber to attend who has sealed over the ridge joints as well as some missing rivets. Customer has also advised that the air conditioning cassette in the dining room ceiling has been leaking causing paint damage and mould directly surrounding it.
+ [/INST] Agent: Agent: Occupant/Insured details of event accurately captured - How, When, What </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  
+Answers:
+- : During our site assessment we observed very minor damages to the hallway ceiling lining which is consistent with a leaking roof. No storm created opening has occurred and water ingress was able to damage the ceiling due to poorly sealed ridge joints. This has been mitigated though as the customer has engaged their own roof plumber to attend to seal over the missing rivets and ridge joins.
+
+The quoted works are required to bring the property back to pre-existing condition from the damage due to the storm, due to the property having pre-existing plastering defects and overlapping damages from a long-term leaking cassette air conditioning.  The claim will be recommended for cash settlement if policy determination accepts the claim.
+
+
+
+We also observed a cassette style air conditioning installed to the Open Plan area which has some long-term damages surrounding the unit. Microbial growth is present indicating the damage has been occurring for an extended period of time due to the gradual process of liquid leaking. This should be considered as a secondary claim and will be recommended for decline due to the gradual process of liquid leaking/condensation.
+
+
+- Is the damage consistent with the claimed event? Yes
+- Internal Trades/ Repairs: Painting,Plastering
+- Were there Contents involved in the Claim? : No
+ [/INST] Agent: Agent: Builders Observations accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Building Report Quality
+Answers:
+- Primary Causation: Storm
+ [/INST] Agent: Agent: Primary Causation accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Occupant/Insured details of event accurately captured - How, When, What
+Answers:
+- Are there any engineers reports required for this claim? No
+- Conclusion: In our professional opinion the damages at the property are consistent with the storm event, however no storm created opening has occurred. Minor ceiling patching and painting is required to bring the property back to a pre-existing condition. We did note that there is a cassette style air conditioning in the living room which shows signs of long-term damage and should be considered as an escape of liquid. We recommend the damages from the storm claim as an accepts however, cash settlement is required due to the overlapping damages of the air-conditioner and pre-existing plaster defects throughout the property which are not related. 
+
+
+- Repair Cost: Estimate
+- Repairs Proceeding within Authorisation Limits: No - Claim to be cash settled
+ [/INST] Agent: Agent: Builders Conclusion - clear, concise, correct policy response, correct referral determination </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Appropriate number and quality of photos per affected location
+Answers:
+- Is there owner maintenance required? No
+- Are there building defects on the property? No
+ [/INST] Agent: Agent: Pre-existing defects and damage not related to the claimed event accurately captured and labelled </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Builders Observations accurately recorded
+Answers:
+- Date: Tue, May 09 2023
+- Time: 13:04 PM
+- Assessment Attended By: Insured 1
+- Dwelling Type: lowset
+- Total Area m2: 125
+- Construction: cavity brick
+- Roof Type: concrete roof tile
+- Age of Home: 35+
+- Condition: excellent
+- Asbestos Type: No Asbestos
+- Does the customer require temporary accommodation? No
+- Policy Determination: Refer to Insurer
+- Is there a possibility for recovery? No
+- Ask Insulation Bats? No
+ [/INST] Agent: Agent: Report Details - Asbestos, Owner Maintenance and Defects, Accommodation - accurately filled out </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Pre-existing defects and damage not related to the claimed event accurately captured and labelled
+Answers:
+- Attended By - Name: Tim maguire
+- Type of Claim: Impact
+- Confirm the Event Date with the insured: 2023-05-01
+- Details Provided by the Occupant: On the date of loss, the insured informed us that there was a domestic violence issue within the property with his daughter and  daughter’s boyfriend. The insureds daughter asked the boyfriend to leave and upon doing so he did a burnout outside on the street, then reversed his utility vehicle into the brickwork of the dwelling before doing a burnout in the driveway, creating cracking to the brickwork along with black rubber marks on the driveway
+ [/INST] Agent: Agent: Occupant/Insured details of event accurately captured - How, When, What </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  
+Answers:
+- : It is our professional opinion that after looking at the video supplied by the insured which is now in the hands of the police, the damage was created to the brick wall beside the garage due to a vehicle backing into it along with the marks on the concrete driveway, created by burn out as he was leaving
+
+
+- Is the damage consistent with the claimed event? Yes
+- External Trades/ Repairs: Brick Laying
+- Were there Contents involved in the Claim? : No
+ [/INST] Agent: Agent: Builders Observations accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Building Report Quality
+Answers:
+- Primary Causation: Impact
+ [/INST] Agent: Agent: Primary Causation accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Occupant/Insured details of event accurately captured - How, When, What
+Answers:
+- Are there any engineers reports required for this claim? Yes
+- Conclusion: Due to the extent of the impact, along with the cracking to the brickwork and mortar, it is their professional opinion we need an engineers report on the structural integrity of the brickwork in this area and will report further on receipt of this report
+
+
+- Repair Cost: Estimate
+- Repairs Proceeding within Authorisation Limits: No - Policy Determination Required
+ [/INST] Agent: Agent: Builders Conclusion - clear, concise, correct policy response, correct referral determination </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Appropriate number and quality of photos per affected location
+Answers:
+- Is there owner maintenance required? No
+- Are there building defects on the property? No
+ [/INST] Agent: Agent: Pre-existing defects and damage not related to the claimed event accurately captured and labelled </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Builders Observations accurately recorded
+Answers:
+- Date: Wed, May 24 2023
+- Time: 11:58 AM
+- Assessment Attended By: Tenant 2
+- Dwelling Type: split level
+- Total Area m2: 160
+- Construction: timber & masonry
+- Roof Type: custom orb - colour coated
+- Age of Home: 10+
+- Condition: good
+- Asbestos Type: No Asbestos
+- Does the customer require temporary accommodation? No
+- Policy Determination: Refer to Insurer
+- Is there a possibility for recovery? No
+- Ask Insulation Bats? No
+ [/INST] Agent: Agent: Report Details - Asbestos, Owner Maintenance and Defects, Accommodation - accurately filled out </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Pre-existing defects and damage not related to the claimed event accurately captured and labelled
+Answers:
+- Attended By - Name: Sherry-Anne
+- Type of Claim: Storm
+- Confirm the Event Date with the insured: 2023-01-15
+- Details Provided by the Occupant: Met with the insured. They informed me that damages were not apparent to her until the january rainfall event. She noticed water pooling in her laundry and damages to door frames.
+ [/INST] Agent: Agent: Occupant/Insured details of event accurately captured - How, When, What </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  
+Answers:
+- : In my professional opinion the damages to the properties are consistent with a rain event and high wind driven weather. However the condition of the frames have weakened sections and have significant water rot to the base of the jamb, this would indicate long term exposure to water. Additionally the aluminium door sill and tiled sill have been installed in a way that compromises required fall/drop to divert water away from door resulting in water pooling against door and frame ultimately weakening the frame and causing rot.
+
+
+- Is the damage consistent with the claimed event? No
+- External Trades/ Repairs: Carpentry
+- Internal Trades/ Repairs: Painting,Plastering
+- Details of owner maintenance required: Owners will be required to engage licensed contractors to replace/adjust current door sill to give sufficient fall and “lip” away from door.
+
+
+- How soon does the owner maintenance need to be completed? Before the repairs can be started
+- Were there Contents involved in the Claim? : No
+ [/INST] Agent: Agent: Builders Observations accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Building Report Quality
+Answers:
+- Primary Causation: Storm
+ [/INST] Agent: Agent: Primary Causation accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Occupant/Insured details of event accurately captured - How, When, What
+Answers:
+- Are there any engineers reports required for this claim? No
+- Conclusion: No, damages are not consistent with the event. The damages are due to long term exposure to water
+
+
+- Repair Cost: Estimate
+- Repairs Proceeding within Authorisation Limits: No - Policy Determination Required
+ [/INST] Agent: Agent: Builders Conclusion - clear, concise, correct policy response, correct referral determination </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Appropriate number and quality of photos per affected location
+Answers:
+- Is there owner maintenance required? Yes
+- Are there building defects on the property? No
+ [/INST] Agent: Agent: Pre-existing defects and damage not related to the claimed event accurately captured and labelled </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Builders Observations accurately recorded
+Answers:
+- Date: Mon, May 15 2023
+- Time: 08:17 AM
+- Assessment Attended By: Insured 1
+- Dwelling Type: lowset
+- Total Area m2: 180 sqm approx
+- Construction: brick veneer
+- Roof Type: terracotta roof tile
+- Age of Home: 15 plus 
+- Condition: good
+- Asbestos Type: No Asbestos
+- Does the customer require temporary accommodation? No
+- Policy Determination: Refer to Insurer
+- Is there a possibility for recovery? No
+- Ask Insulation Bats? No
+ [/INST] Agent: Agent: Report Details - Asbestos, Owner Maintenance and Defects, Accommodation - accurately filled out </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Pre-existing defects and damage not related to the claimed event accurately captured and labelled
+Answers:
+- Confirm the Event Date with the insured: 2023-02-02
+- Details Provided by the Occupant: The property occupant has advised that the water tank has burst during the night while a storm was passing through
+ [/INST] Agent: Agent: Occupant/Insured details of event accurately captured - How, When, What </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  
+Answers:
+- : In our professional opinion the claim is consistant with the insured observation,
+
+Water tank has been re placed and invoice provided to insurer, we believe this is a manufactures fault of the tank, as the is no visual damage from the storm e.g lightning strike, please ref to the insurer for determination
+
+
+
+
+- Is the damage consistent with the claimed event? Yes
+- External Trades/ Repairs: Plumbing
+- Internal Trades/ Repairs: Electrical
+- Upload Image of Internal Damage: \\192.168.200.17\cherwellfiles\Jobs\20032777\12.Images\4. Form Images\BuildersAssessmentReportv2-16841028190649d5c8f98af18c312d18c3ffb1d8d6.jpeg
+- Upload Image of Internal Damage: \\192.168.200.17\cherwellfiles\Jobs\20032777\12.Images\4. Form Images\BuildersAssessmentReportv2-16841028191dd0d01dae38804a3ee1232c90fa89bd.jpeg
+- Upload Image of Internal Damage: \\192.168.200.17\cherwellfiles\Jobs\20032777\12.Images\4. Form Images\BuildersAssessmentReportv2-1684102819a70b22843a46d10890abcb1330701a6f.jpeg
+- Upload Image of Internal Damage: \\192.168.200.17\cherwellfiles\Jobs\20032777\12.Images\4. Form Images\BuildersAssessmentReportv2-1684102819b8d465e5dc78707e7efb5bed6f9aa76f.jpeg
+- Were there Contents involved in the Claim? : Yes
+- Provide detailed pictures of malfunctioned device: \\192.168.200.17\cherwellfiles\Jobs\20032777\12.Images\4. Form Images\BuildersAssessmentReportv2-168410288603301e78cf0bc95befe0986779a29058.jpeg
+- Provide detailed pictures of malfunctioned device: \\192.168.200.17\cherwellfiles\Jobs\20032777\12.Images\4. Form Images\BuildersAssessmentReportv2-16841028864c5f8debf7a774acd48526ec53cc725c.jpeg
+- Provide detailed pictures of malfunctioned device: \\192.168.200.17\cherwellfiles\Jobs\20032777\12.Images\4. Form Images\BuildersAssessmentReportv2-1684102886652eca12fc77b673c85163f6b6314766.jpeg
+- Provide detailed pictures of malfunctioned device: \\192.168.200.17\cherwellfiles\Jobs\20032777\12.Images\4. Form Images\BuildersAssessmentReportv2-1684102886df73836b20dc12987e109b8337778d7c.jpeg
+- Provide detailed pictures of malfunctioned device: \\192.168.200.17\cherwellfiles\Jobs\20032777\12.Images\4. Form Images\BuildersAssessmentReportv2-1684102886f87be2831e207e8cbb651e6e1d16acf3.jpeg
+ [/INST] Agent: Agent: Builders Observations accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Building Report Quality
+Answers:
+- Primary Causation: Storm
+ [/INST] Agent: Agent: Primary Causation accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Occupant/Insured details of event accurately captured - How, When, What
+Answers:
+- Are there any engineers reports required for this claim? No
+- Conclusion: In our professional opinion the observations provided by the insured are consistent with the damage. No scope of works has been provided, as there are no building damages related to the claimed events. The claim is referred for policy determination.
+
+
+- Repair Cost: Schedule of Rates
+- Repairs Proceeding within Authorisation Limits: No - Claim to be cash settled
+ [/INST] Agent: Agent: Builders Conclusion - clear, concise, correct policy response, correct referral determination </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Appropriate number and quality of photos per affected location
+Answers:
+- Is there owner maintenance required? No
+- Are there building defects on the property? No
+ [/INST] Agent: Agent: Pre-existing defects and damage not related to the claimed event accurately captured and labelled </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Builders Observations accurately recorded
+Answers:
+- Date: Tue, May 23 2023
+- Time: 10:41 AM
+- Assessment Attended By: Insured 1
+- Dwelling Type: lowset
+- Total Area m2: 240
+- Construction: timber & masonry
+- Roof Type: custom orb - colour coated
+- Age of Home: 18 years
+- Condition: excellent
+- Asbestos Type: No Asbestos
+- Does the customer require temporary accommodation? No
+- Policy Determination: Refer to Insurer
+- Is there a possibility for recovery? No
+- Ask Insulation Bats? No
+ [/INST] Agent: Agent: Report Details - Asbestos, Owner Maintenance and Defects, Accommodation - accurately filled out </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Pre-existing defects and damage not related to the claimed event accurately captured and labelled
+Answers:
+- Attended By - Name: Peter
+- Type of Claim: Storm
+- Confirm the Event Date with the insured: 2023-05-12
+- Details Provided by the Occupant: Met the insured on site. Was advised on the May 12th 2023 a rain event happened in the area resulting in heavy rain. The insured awoke at 6am to the sound of water dripping. The son-in-law came over and went onto the roof to inspect valley flashing.  After inspecting it was seen to have slipped down the valley exposing a 10mm hole. The flashing was pushed back up and siliconed in place.
+ [/INST] Agent: Agent: Occupant/Insured details of event accurately captured - How, When, What </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  
+Answers:
+- : In my professional opinion the damages are not consistent with claimed event as no resultant damage is evident.
+
+After reviewing the roof report it is stated that the water ingress was the result of defective workmanship not fixing the valley flashing to the valley boards. The valley flashing also had no signs of being riveted together so as to stop the flashings gradually slipping down over time resulting in the gap opening up allowing water to enter the ceiling cavity.
+
+After reviewing restoration report, there is evidence of microbial growth within the bulk heads which indicates long term exposure to water.
+
+As insured was unaware maintenance was required, the insurer representative has advised that claim can be accepted.
+
+
+- Is the damage consistent with the claimed event? No
+- External Trades/ Repairs: Metal Roofing
+- Internal Trades/ Repairs: Drying and sanitisation
+- Details of owner maintenance required: We recommend the insured engages a suitably qualified trade to remove roof sheets to expose the valley flashing, rivet together and fix properly to the valley boards. 
+
+The remaining roof will need to be assessed and attend to protruding screw heads which will need to be removed and replaced.
+- How soon does the owner maintenance need to be completed? Shall not prevent repair progress
+- Were there Contents involved in the Claim? : No
+ [/INST] Agent: Agent: Builders Observations accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Building Report Quality
+Answers:
+- Primary Causation: Storm
+ [/INST] Agent: Agent: Primary Causation accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Occupant/Insured details of event accurately captured - How, When, What
+Answers:
+- Are there any engineers reports required for this claim? No
+- Conclusion: No, the damage is not consistent with claimed event as no resultant damage is present. After reviewing the restoration report there is evidence of microbial growth which indicates long term exposure to water.
+
+
+
+
+- Repair Cost: Estimate
+- Repairs Proceeding within Authorisation Limits: No - Policy Determination Required
+ [/INST] Agent: Agent: Builders Conclusion - clear, concise, correct policy response, correct referral determination </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Appropriate number and quality of photos per affected location
+Answers:
+- Is there owner maintenance required? Yes
+- Are there building defects on the property? No
+ [/INST] Agent: Agent: Pre-existing defects and damage not related to the claimed event accurately captured and labelled </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Builders Observations accurately recorded
+Answers:
+- Date: Mon, Jun 26 2023
+- Time: 12:51 PM
+- Assessment Attended By: Insured 1
+- Dwelling Type: highset
+- Total Area m2: 160
+- Construction: timber
+- Roof Type: custom orb - zinc
+- Age of Home: 50+
+- Condition: average
+- Asbestos Type: No Asbestos
+- Does the customer require temporary accommodation? Yes
+- Policy Determination: Refer to Insurer
+- Is there a possibility for recovery? No
+- Ask Insulation Bats? No
+ [/INST] Agent: Agent: Report Details - Asbestos, Owner Maintenance and Defects, Accommodation - accurately filled out </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Pre-existing defects and damage not related to the claimed event accurately captured and labelled
+Answers:
+- Attended By - Name: Tim maguire
+- Type of Claim: Flood
+- Confirm the Event Date with the insured: 2022-02-27
+- Details Provided by the Occupant: On date of assessment I met with the insured he stated to me that in February 2022 during the rain event and floods his house was flooded up to 500 mm throughout the dwelling
+And I am here to assess this being the fourth report for the insurance company due to a dispute as all quotes are different in prices 
+ [/INST] Agent: Agent: Occupant/Insured details of event accurately captured - How, When, What </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  
+Answers:
+- : on date of inspection it was clear the house was flooded as the plasterboard had been removed 1200 high, along with fixtures and mouldings. I am here to assess only what is visible to what I believe is to match the existing that was in place before the flood / like for like
+
+But it was very hard, considering nothing. Was there to ascertain like for like with fixtures switches, mouldings, etc and the configuration of the bathroom as the insured was not very forthcoming due to his dispute with insurance company.
+
+
+- Is the damage consistent with the claimed event? Yes
+- External Trades/ Repairs: Carpentry,Fencing
+- Internal Trades/ Repairs: Carpentry,Cleaning,Electrical,Insulation,Joinery,Painting,Plastering,Plumbing,Shower screens,Tiling,Timber floors
+- For approximately how long will temporary accommodation be required? Already in a temporary accommodation
+- Were there Contents involved in the Claim? : No
+ [/INST] Agent: Agent: Builders Observations accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Building Report Quality
+Answers:
+- Primary Causation: Flood
+ [/INST] Agent: Agent: Primary Causation accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Occupant/Insured details of event accurately captured - How, When, What
+Answers:
+- Are there any engineers reports required for this claim? No
+- Conclusion: I have assessed the house to what I believe is like for like including all fittings, cabinetry, mouldings, bathroom and kitchen, but I must state. This is the fourth quotation for the insured for the insurance company as there is a dispute over the matter and I was not there originally to assess after the flood
+
+
+
+What conclusion is rectification works need to be done. I have submitted the scope of works to what I believe the insured is entitled to within the lounge, kitchen bathroom bedroom, two main bedroom and study
+
+
+- Policy Determination : Storm event/flooding
+- Repair Cost: Schedule of Rates
+- Repairs Proceeding within Authorisation Limits: No - Policy Determination Required
+ [/INST] Agent: Agent: Builders Conclusion - clear, concise, correct policy response, correct referral determination </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Appropriate number and quality of photos per affected location
+Answers:
+- Are there customer repairs required? No
+- Are there building defects on the property? No
+ [/INST] Agent: Agent: Pre-existing defects and damage not related to the claimed event accurately captured and labelled </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Builders Observations accurately recorded
+Answers:
+- Date: Tue, Jul 11 2023
+- Time: 06:41 AM
+- Assessment Attended By: insured
+- Dwelling Type: Highset
+- Total Area m2: 150
+- Construction: brick veneer
+- Roof Type: concrete roof tile
+- Age of Home: 51
+- Condition: good
+- Asbestos Type: No Asbestos
+- Does the customer require temporary accommodation? No
+- Policy Determination: Accept
+- Is there a possibility for recovery? No
+- Ask Insulation Bats? No
+ [/INST] Agent: Agent: Report Details - Asbestos, Owner Maintenance and Defects, Accommodation - accurately filled out </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Pre-existing defects and damage not related to the claimed event accurately captured and labelled
+Answers:
+- Attended By - Name: Andrew Rowan
+- Type of Claim: Storm
+- Confirm the Event Date with the insured: 2023-07-03
+- Details Provided by the Occupant: Ambrose Construct Group attended site on behalf of the insurance company to assess the damages as part of the customers claim. The insured advised that she had a technician attend site to remove the solar panels from the carport roof so she can replace all the damage screws and repaint the roof sheets.
+On inspection, her solar technician mentioned that the solar panels appear to be damaged by possible hail.
+
+ [/INST] Agent: Agent: Occupant/Insured details of event accurately captured - How, When, What </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  
+Answers:
+- : Upon visual inspection of the damages and the property occupant statement it is evident that the insured had a solar technician, attended site to remove solar panels from the carport roof so she could replace damage screws and repaint the roof sheets.
+
+Her technician advised that the existing solar panels appear to have sustain some damage, possibly from hail impact.
+
+The date of the hail damages cannot be confirmed.
+
+The pre-existing solar panels and racking are stored underneath the carport to the rear of the property.
+
+
+- Is the damage consistent with the claimed event? Yes
+- External Trades/ Repairs: Solar
+- Were there Contents involved in the Claim? : No
+ [/INST] Agent: Agent: Builders Observations accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Building Report Quality
+Answers:
+- Primary Causation: Storm
+ [/INST] Agent: Agent: Primary Causation accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Occupant/Insured details of event accurately captured - How, When, What
+Answers:
+- Are there any engineers reports required for this claim? No
+- Conclusion: Ambrose Construct group can confirm that the homeowner has engaged a solar technician to remove the pre-existing solar panels from the carport roof to replace damage screws and repaint the roof sheets as part of owner maintenance and on removal of the panels The technician has advised that the pre-existing panels may have sustained possible hail damage.
+
+Ambrose Construct group engage their own solar technician who has confirmed that damages to the solar panels are in line with hail damage.
+
+
+- Repair Cost: Quote
+- Repairs Proceeding within Authorisation Limits: Yes - Proceeding as Schedule of Rates
+ [/INST] Agent: Agent: Builders Conclusion - clear, concise, correct policy response, correct referral determination </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Appropriate number and quality of photos per affected location
+Answers:
+- Are there customer repairs required? No
+- Are there building defects on the property? No
+ [/INST] Agent: Agent: Pre-existing defects and damage not related to the claimed event accurately captured and labelled </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Builders Observations accurately recorded
+Answers:
+- Date: Thu, Jul 13 2023
+- Time: 07:36 AM
+- Assessment Attended By: no attendance
+- Dwelling Type: Split Level
+- Total Area m2: 200
+- Construction: timber
+- Roof Type: trim deck - zinc
+- Age of Home: 72 years
+- Condition: average
+- Asbestos Type: No Asbestos
+- Does the customer require temporary accommodation? No
+- Policy Determination: Refer to Insurer
+- Is there a possibility for recovery? No
+- Ask Insulation Bats? No
+ [/INST] Agent: Agent: Report Details - Asbestos, Owner Maintenance and Defects, Accommodation - accurately filled out </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Pre-existing defects and damage not related to the claimed event accurately captured and labelled
+Answers:
+- Attended By - Name: Nobody was present at the time of attendance.
+- Type of Claim: Storm
+- Confirm the Event Date with the insured: 2023-05-19
+- Details Provided by the Occupant: As stated by insured to our team in the office.
+Insured advised a hail event in 2020 has caused dents to the rear pergola/shed.
+ [/INST] Agent: Agent: Occupant/Insured details of event accurately captured - How, When, What </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  
+Answers:
+- : An inspection was undertaken of the roof of the detached timber shed with Zinc finish trimdeck roof.
+
+ 
+
+Foot traffic markings and rusting were evident to the extensively weathered and oxidized finish of the shed. 
+
+ 
+
+The residence is approximately 72 years old, and the roof finish is in poor condition.
+
+ 
+
+The integrity of the roofing has been compromised by the rust holes, and foot traffic damage. No other storm damage was evident to roofing.
+
+
+
+
+In my professional opinion, the roof sheeting has reached the end of its serviceable life and will require replacement to ensure a water tight roof surface.
+- Is the damage consistent with the claimed event? No
+- External Trades/ Repairs: Metal Roofing
+- Details of customer repairs required: Engage a QBCC licensed roofing contractor to replace roof to a serviceable state, and bringing up to current QBCC standards.
+
+
+
+- How soon do the customer repairs need to be completed? Immediately to avoid further damages
+- Outline defects: Structure is non compliant as structural timber posts are rotten beyond repair. The rear patio roof is under pitched. 
+- Were there Contents involved in the Claim? : No
+ [/INST] Agent: Agent: Builders Observations accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Building Report Quality
+Answers:
+- Primary Causation: Storm
+ [/INST] Agent: Agent: Primary Causation accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Occupant/Insured details of event accurately captured - How, When, What
+Answers:
+- Are there any engineers reports required for this claim? No
+- Conclusion: In my professional opinion the damage is not consistent with a one of hail event. The damage onsite is due to general wear and tear over the buildings 72 year life span.
+
+.
+- Policy Determination : Clear hail damage, 
+CS recommended due to non compliant structural posts.
+- Repair Cost: Schedule of Rates
+- Repairs Proceeding within Authorisation Limits: No - Policy Determination Required
+ [/INST] Agent: Agent: Builders Conclusion - clear, concise, correct policy response, correct referral determination </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Appropriate number and quality of photos per affected location
+Answers:
+- Are there customer repairs required? Yes
+- Are there building defects on the property? Yes
+ [/INST] Agent: Agent: Pre-existing defects and damage not related to the claimed event accurately captured and labelled </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Builders Observations accurately recorded
+Answers:
+- Date: Thu, Aug 10 2023
+- Time: 07:20 AM
+- Assessment Attended By: insured
+- Dwelling Type: Lowset
+- Total Area m2: 200
+- Construction: cavity brick
+- Roof Type: concrete roof tile
+- Age of Home: 30+
+- Condition: average
+- Asbestos Type: No Asbestos
+- Does the customer require temporary accommodation? No
+- Policy Determination: Accept
+- Is there a possibility for recovery? No
+ [/INST] Agent: Agent: Report Details - Asbestos, Owner Maintenance and Defects, Accommodation - accurately filled out </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Pre-existing defects and damage not related to the claimed event accurately captured and labelled
+Answers:
+- Attended By - Name: Josh
+- Type of Claim: Escape of Liquid
+- Confirm the Event Date with the insured: Mon, Aug 07 2023
+- Details Provided by the Occupant: A claim was placed for a original dishwasher water leak. The dishwasher was disconnected under a  Make Safe then the tap had a slow drip. A container was placed under the tap, however, overflowed which has damaged the Cabinetry more.
+
+
+ [/INST] Agent: Agent: Occupant/Insured details of event accurately captured - How, When, What </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  
+Answers:
+- : Thomas from Ambrose construct, Group has attended site to review the leak
+
+The tap that was isolated under the Make Safe has had a slow drip The insured placed a container under the tap, which has overflowed causing further damages to the Cabinetry.
+
+The tap has compromised washes the tap was turned off. 
+
+under customer repairs the tap will need to be replaced.
+
+
+- Is the damage consistent with the claimed event? Yes
+- Internal Trades/ Repairs: Cleaning
+- Details of customer repairs required: Isolation tap will need to be replaced.
+
+
+- How soon do the customer repairs need to be completed? During the repairs being completed
+- Were there Contents involved in the Claim? : No
+ [/INST] Agent: Agent: Builders Observations accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Building Report Quality
+Answers:
+- Primary Causation: Escape of Liquid
+ [/INST] Agent: Agent: Primary Causation accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Occupant/Insured details of event accurately captured - How, When, What
+Answers:
+- Are there any engineers reports required for this claim? No
+- Conclusion: Cabinetry base units will need to be replaced in conjunction with the original repairs.
+
+
+- Policy Determination : My professional opinion is this is in conjunction with the original claim
+- Repair Cost: Schedule of Rates
+- Repairs Proceeding within Authorisation Limits: Yes - Proceeding as D&C
+ [/INST] Agent: Agent: Builders Conclusion - clear, concise, correct policy response, correct referral determination </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Appropriate number and quality of photos per affected location
+Answers:
+- Are there customer repairs required? Yes
+- Are there building defects on the property? No
+ [/INST] Agent: Agent: Pre-existing defects and damage not related to the claimed event accurately captured and labelled </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Builders Observations accurately recorded
+Answers:
+- Date: Wed, Jul 26 2023
+- Time: 13:16 PM
+- Assessment Attended By: insured
+- Dwelling Type: Lowset
+- Total Area m2: 400
+- Construction: cavity brick
+- Roof Type: concrete roof tile
+- Age of Home: 30+
+- Condition: good
+- Asbestos Type: No Asbestos
+- Does the customer require temporary accommodation? No
+- Policy Determination: Refer to Insurer
+- Is there a possibility for recovery? No
+- Ask Insulation Bats? No
+ [/INST] Agent: Agent: Report Details - Asbestos, Owner Maintenance and Defects, Accommodation - accurately filled out </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Pre-existing defects and damage not related to the claimed event accurately captured and labelled
+Answers:
+- Attended By - Name: Insured
+- Type of Claim: Escape of Liquid
+- Confirm the Event Date with the insured: 2023-06-02
+- Details Provided by the Occupant: The insured customer stated their solar hot water system stopped working approximately 3-4 weeks ago due to unknown reasons.
+ [/INST] Agent: Agent: Occupant/Insured details of event accurately captured - How, When, What </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  
+Answers:
+- : Our inspection found age, wear and tear issues to the roof mounted solar hot water system where corrosion is evident.
+
+We also found staining was visible to the roof tiles which indicates an escape of liquid from the unit.
+
+
+- Is the damage consistent with the claimed event? No
+- External Trades/ Repairs: Plumbing
+- Were there Contents involved in the Claim? : No
+ [/INST] Agent: Agent: Builders Observations accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Building Report Quality
+Answers:
+- Primary Causation: Escape of Liquid
+ [/INST] Agent: Agent: Primary Causation accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Occupant/Insured details of event accurately captured - How, When, What
+Answers:
+- Are there any engineers reports required for this claim? No
+- Conclusion: Our inspection found age, wear and tear issues to the roof mounted solar hot water system where corrosion is evident.
+
+At the time of our inspection we did not find any evidence of a insurable event that would have contributed to the resultant damage.
+
+We will not proceed with repairs and refer this claim to the insurer for policy determination.
+- Repair Cost: Estimate
+- Repairs Proceeding within Authorisation Limits: No - Policy Determination Required
+ [/INST] Agent: Agent: Builders Conclusion - clear, concise, correct policy response, correct referral determination </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Appropriate number and quality of photos per affected location
+Answers:
+- Are there customer repairs required? No
+- Are there building defects on the property? No
+ [/INST] Agent: Agent: Pre-existing defects and damage not related to the claimed event accurately captured and labelled </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Builders Observations accurately recorded
+Answers:
+- Date: Tue, Aug 22 2023
+- Time: 11:01 AM
+- Assessment Attended By: Insured 1
+- Dwelling Type: Lowset
+- Total Area m2: 150m2
+- Construction: brick veneer
+- Roof Type: terracotta roof tile
+- Age of Home: 30y
+- Condition: good
+- Asbestos Type: No Asbestos
+- Does the customer require temporary accommodation? No
+- Policy Determination: Refer to Insurer
+- Is there a possibility for recovery? No
+- Ask Insulation Bats? No
+ [/INST] Agent: Agent: Report Details - Asbestos, Owner Maintenance and Defects, Accommodation - accurately filled out </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Pre-existing defects and damage not related to the claimed event accurately captured and labelled
+Answers:
+- Attended By - Name: Samantha
+- Type of Claim: Impact
+- Confirm the Event Date with the insured: 2023-08-12
+- Details Provided by the Occupant: Met the insured on site, was advised the insured partner had left in a hurry to go to work, forgetting that their toolbox was open. The vehicle was a Hilux with canopy toolbox. The insured has impacted the garage door and track with the side of the toolbox door, resulting in the damages present.
+
+
+ [/INST] Agent: Agent: Occupant/Insured details of event accurately captured - How, When, What </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  
+Answers:
+- : In accordance with your instructions an inspection was undertaken at the insured premises on the 22/08/23, in the presence of the insured Samantha who has claimed that on the 12/8/23 the garage panel lift door, was subjected to impact from a motor vehicle, resulting in damage that will need to be repaired to bring the property back to a pre-event condition. 
+
+Based on the results of our investigations, the available evidence shows that the claimed damages have been a direct result of the insured motor vehicle impacting the door whilst the door was completely open.
+
+ 
+
+
+- Is the damage consistent with the claimed event? Yes
+- External Trades/ Repairs: Brick Laying,Carpentry,Sheds/ metal fabrication
+- Internal Trades/ Repairs: Carpentry,Cleaning,Electrical,Painting,Plastering
+- Were there Contents involved in the Claim? : No
+ [/INST] Agent: Agent: Builders Observations accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Building Report Quality
+Answers:
+- Primary Causation: Impact
+ [/INST] Agent: Agent: Primary Causation accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Occupant/Insured details of event accurately captured - How, When, What
+Answers:
+- Are there any engineers reports required for this claim? Yes
+- Conclusion: Yes, the damage is consistent with a motor vehicle impact to the garage door.
+
+
+- Repair Cost: Quote
+- Repairs Proceeding within Authorisation Limits: No - Policy Determination Required
+ [/INST] Agent: Agent: Builders Conclusion - clear, concise, correct policy response, correct referral determination </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Appropriate number and quality of photos per affected location
+Answers:
+- Are there customer repairs required? No
+- Are there building defects on the property? No
+ [/INST] Agent: Agent: Pre-existing defects and damage not related to the claimed event accurately captured and labelled </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Builders Observations accurately recorded
+Answers:
+- Date: Tue, Sep 05 2023
+- Time: 14:54 PM
+- Assessment Attended By: tenant
+- Dwelling Type: Lowset
+- Total Area m2: 160
+- Construction: timber
+- Roof Type: concrete roof tile
+- Age of Home: 45+
+- Condition: average
+- Asbestos Type: No Asbestos
+- Does the customer require temporary accommodation? No
+- Policy Determination: Refer to Insurer
+- Is there a possibility for recovery? No
+- Ask Insulation Bats? No
+ [/INST] Agent: Agent: Report Details - Asbestos, Owner Maintenance and Defects, Accommodation - accurately filled out </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Pre-existing defects and damage not related to the claimed event accurately captured and labelled
+Answers:
+- Attended By - Name: Mick 
+- Type of Claim: Storm
+- Confirm the Event Date with the insured: 2023-03-15
+- Details Provided by the Occupant: I met with one of the insureds tenants who explained to me there was mould on the ceiling within the kitchen and lounge room, but had no more information for me as he believed it was going through the Real Estate
+
+
+ [/INST] Agent: Agent: Occupant/Insured details of event accurately captured - How, When, What </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  
+Answers:
+- : At time of inspection, I noted mould and deterioration on the kitchen ceiling along with the lounge room ceiling, but was not able to get enough information from the tenant.
+
+We conducted a roofing report and it was identified that leaf and debris build up on and in roof tile laps and valleys.  This debris is actually blocking the valley flashings and won't allow water to flow, eventually backing up and entering the ceiling space. No weep holes in the ridge cap pointing, any water that blows under the ridge caps cannot escape through the weep holes to prevent water ingress.
+
+The rear patio roof is the wrong profile roof sheet for such a low pitch.
+
+It is recommended that all the leaf and debris be removed from the roof gutters, tiles and tile laps and weep holes installed to the ridge capping. Also, the patio roof sheeting should be changed to another profile suitable for the lower pitch.
+- Is the damage consistent with the claimed event? Yes
+- Internal Trades/ Repairs: Painting,Plastering
+- Details of customer repairs required: t is recommended that all the leaf and debris be removed from the roof gutters, tiles and tile laps and weep holes installed to the ridge capping. Also, the patio roof sheeting should be changed to another profile suitable for the lower pitch.
+- How soon do the customer repairs need to be completed? Before the repairs can be started
+- Were there Contents involved in the Claim? : No
+ [/INST] Agent: Agent: Builders Observations accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Building Report Quality
+Answers:
+- Primary Causation: Storm
+ [/INST] Agent: Agent: Primary Causation accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Occupant/Insured details of event accurately captured - How, When, What
+Answers:
+- Are there any engineers reports required for this claim? No
+- Conclusion: After reviewing the roof report, owner maintenance is required. There was a large volume of leaf debris within the gutters and roof itself.
+
+As the property is tenanted by young uni students it is my professional belief that regular maintenance has to be arranged by either the property manager or the owner of the dwelling .
+
+It is recommended that all the leaf and debris be removed from the roof gutters, tiles and tile laps and weep holes installed to the ridge capping. Also, the patio roof sheeting should be changed to another profile suitable for the lower pitch.
+
+Due to the house being tenanted, the property maintenance throughout, the dwelling was poor and inspection of the roof on arrival was covered in leaf debris and poor internal ceilings and walls was poor 
+
+Due to no maintenance been carried out by the insured well information supplied by the property manager to the insured. The mould within the ceiling has been caused by a lack of poor maintenance within the dwelling within and on the tiled roof, hence the resultant damage to the internal linings. 
+
+
+- Repair Cost: Schedule of Rates
+- Repairs Proceeding within Authorisation Limits: No - Policy Determination Required
+ [/INST] Agent: Agent: Builders Conclusion - clear, concise, correct policy response, correct referral determination </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Appropriate number and quality of photos per affected location
+Answers:
+- Are there customer repairs required? Yes
+- Are there building defects on the property? No
+ [/INST] Agent: Agent: Pre-existing defects and damage not related to the claimed event accurately captured and labelled </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Builders Observations accurately recorded
+Answers:
+- Date: Thu, Sep 07 2023
+- Time: 10:30 AM
+- Assessment Attended By: Insured 1
+- Dwelling Type: Lowset
+- Total Area m2: 300
+- Construction: brick veneer
+- Roof Type: custom orb - colour coated
+- Age of Home: 20+
+- Condition: good
+- Asbestos Type: No Asbestos
+- Does the customer require temporary accommodation? No
+- Policy Determination: Refer to Insurer
+- Is there a possibility for recovery? No
+- Ask Insulation Bats? No
+ [/INST] Agent: Agent: Report Details - Asbestos, Owner Maintenance and Defects, Accommodation - accurately filled out </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Pre-existing defects and damage not related to the claimed event accurately captured and labelled
+Answers:
+- Type of Claim: Storm
+- Confirm the Event Date with the insured: 2019-11-17
+- Details Provided by the Occupant: Insured advised that a third party has looked at the house, to advise of hail damage to the roof. 
+
+
+ [/INST] Agent: Agent: Occupant/Insured details of event accurately captured - How, When, What </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  
+Answers:
+- Details: Met with the insured and assessor Isaac. Upon inspection of the roof i found to be in good condition for its age with no maintenance concerns observed. I used chalk to identify hail damage, i chalked multiple 1m2 locations of the roof and carport, i found no dents in these areas. I also couldn’t find any visual dents to the roofing or any flashings from hail. I found very minor dents to the whirly birds only. It’s my opinion the hail was too small to damage to corrugated sheeting and has only damaged the whirly birds as they are aluminium.
+
+
+
+We had been asked off the insurer to complete a roof report for a third opinion as to if the roof was hail damaged or not. The roofer did not find any storm related damages to the roof.
+
+
+
+23/10. Ambrose construct had been asked off assessor to complete another roof report to confirm if there is any hail damage or not, we completed another roof report and the trade returned to site twice for two opinions of the roof and again they found no hail damage to the sheeting or ridge caps.
+
+
+
+UPDATE DUAL RE ATTENDANCE 16/1/24 
+
+
+
+Ambrose Construct Group estimator has completed a dual re attendance with Suncorp assessor Dean and third party representative to complete a re inspection of the roof structure as the customer is disputing the outcome of the currently scope of works. Ambrose Construct Group estimator inspected the roof and advised the following 
+
+Overview condition of the roof is good
+We have re chalked approx 1m2 in multiple locations to all roof elevations end to end to identify only 2x sheeting affected by the event (as per the previous inspection) 
+Minor hail impact present to the ridge capping (as per the previous inspection)
+Hail impact to 2x whirlybirds  ( as per the previous inspection)
+Third party has also inspected all areas and agreed with these findings 
+Ambrose Construct Group advise that an liability quote has been provided for the damages sections of the roofing only, recommend cash settle due to partial roof repairs and a third party representative on the claim. Ambrose Construct Group recommend that the claim is to be referred back to the insurer for policy determination. 
+
+
+- Is the damage consistent with the claimed event? No
+- Would the customer have been reasonably aware of the maintenance issues? No
+- Were there Contents involved in the Claim? : No
+ [/INST] Agent: Agent: Builders Observations accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Building Report Quality
+Answers:
+- Primary Causation: Storm
+ [/INST] Agent: Agent: Primary Causation accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Occupant/Insured details of event accurately captured - How, When, What
+Answers:
+- Are there any engineers reports required for this claim? No
+- Conclusion: its our opinion that the roof is not hail damage as claimed by the third party, i asked insured to see images off third party showing damage however these weren’t provided, due to this we refer the claim to insurer for policy determination.
+
+
+
+After reviewing the roof report we can confirm that there is no storm related damages to the roof.
+
+
+
+After reviewing the second roof report this now confirms again that the roof is not hail damaged.
+
+
+
+RE ATTENDANCE 
+
+In our professional the damages that we have observed during the dual re attendance to the property accurate with the previous inspection completed by Ambrose Construct Group. Liability quote has been provide for cash settled due to partial roof repairs and third party representative present on the active claim. This claim is to be referred back to the insurer 
+
+
+- Repair Cost: Quote
+- Repairs Proceeding within Authorisation Limits: No - Policy Determination Required
+ [/INST] Agent: Agent: Builders Conclusion - clear, concise, correct policy response, correct referral determination </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Appropriate number and quality of photos per affected location
+Answers:
+- Are there customer repairs required? No
+- Are there building defects on the property? No
+ [/INST] Agent: Agent: Pre-existing defects and damage not related to the claimed event accurately captured and labelled </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Builders Observations accurately recorded
+Answers:
+- Date: Tue, Sep 19 2023
+- Time: 12:58 PM
+- Assessment Attended By: Insured 2
+- Dwelling Type: Lowset
+- Total Area m2: Approx. 220 m2
+- Construction: cavity brick
+- Roof Type: terracotta roof tile
+- Age of Home: Approx. 18 years of age.
+- Condition: good
+- Asbestos Type: No Asbestos
+- Does the customer require temporary accommodation? No
+- Policy Determination: Accept
+- Is there a possibility for recovery? No
+- Ask Insulation Bats? No
+ [/INST] Agent: Agent: Report Details - Asbestos, Owner Maintenance and Defects, Accommodation - accurately filled out </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Pre-existing defects and damage not related to the claimed event accurately captured and labelled
+Answers:
+- Attended By - Name: Trevor Brentnall
+- Type of Claim: Storm
+- Confirm the Event Date with the insured: 2023-09-13
+- Details Provided by the Occupant: Ambrose Construct Group have completed an on-site assessment with the customer Trevor Brentnall on the 19th September 2023.
+
+Insured advised the property has sustained damage caused by the storm event which occurred on the 13th of September 2023.
+
+Insured advised that the strong gustily winds had caused damaged to the wholly owned right side dividing Hardie-fence and a tree to the front garden to be dislodged.
+ [/INST] Agent: Agent: Occupant/Insured details of event accurately captured - How, When, What </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  
+Answers:
+- Details: Ambrose Construct Group have completed a thorough inspection of the property to assess the event related damages.
+
+An external inspection of the property was then undertaken with following event related damages noted:
+
+26 lineal meters of Hardie-fence sheeting damaged cracking at ground level to the wholly owned right side boundary fence, requiring replacement.
+Approximately 16.5 square meters (22m x 0.75m) of brick pavers to be removed and reinstated to enable fence replacement repairs.
+
+The cause of the damages has been confirmed to be a result of strong winds, which were recorded in the area on the reported date of loss.
+- Is the damage consistent with the claimed event? Yes
+- External Trades/ Repairs: Fencing
+- Provide further details: N/A.
+- Were there Contents involved in the Claim? : No
+ [/INST] Agent: Agent: Builders Observations accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Building Report Quality
+Answers:
+- Primary Causation: Storm
+ [/INST] Agent: Agent: Primary Causation accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Occupant/Insured details of event accurately captured - How, When, What
+Answers:
+- Are there any engineers reports required for this claim? No
+- Conclusion: The cause of the damages to the wholly owned right side boundary fence, has been confirmed to be a result of strong winds, which were recorded in the area on the reported date of loss.
+
+
+- Policy Determination : Accept, as the damages has been confirmed to be a result of strong winds, which were recorded in the area on the reported date of loss.
+
+As per page 42 
+We cover
+Loss or damage caused by a storm
+- Repair Cost: Schedule of Rates
+- Repairs Proceeding within Authorisation Limits: Yes - Proceeding as Schedule of Rates
+ [/INST] Agent: Agent: Builders Conclusion - clear, concise, correct policy response, correct referral determination </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Appropriate number and quality of photos per affected location
+Answers:
+- Are there customer repairs required? No
+- Are there building defects on the property? No
+ [/INST] Agent: Agent: Pre-existing defects and damage not related to the claimed event accurately captured and labelled </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Builders Observations accurately recorded
+Answers:
+- Date: Fri, Oct 20 2023
+- Time: 09:02 AM
+- Assessment Attended By: Insured 1
+- Dwelling Type: Lowset
+- Total Area m2: 250
+- Construction: brick veneer
+- Roof Type: custom orb - colour coated
+- Age of Home: 10+
+- Condition: excellent
+- Asbestos Type: No Asbestos
+- Does the customer require temporary accommodation? No
+- Policy Determination: Refer to Insurer
+- Is there a possibility for recovery? No
+- Ask Insulation Bats? No
+ [/INST] Agent: Agent: Report Details - Asbestos, Owner Maintenance and Defects, Accommodation - accurately filled out </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Pre-existing defects and damage not related to the claimed event accurately captured and labelled
+Answers:
+- Attended By - Name: Cody Smith
+- Type of Claim: Escape of Liquid
+- Confirm the Event Date with the insured: 2023-10-06
+- Details Provided by the Occupant: The insured occupant went to use his shower in his ensuite when he noticed a crack in the acrylic shower base. He ceased using the ensuite shower and rang the insurance company.
+ [/INST] Agent: Agent: Occupant/Insured details of event accurately captured - How, When, What </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  
+Answers:
+- Details:   The home is good condition and has an acrylic shower base in the ensuite, which has a crack to the right hand side of the waist.
+
+All grout and silicon are in good order. The shower screen is in good order.
+
+The leak location report indicated that everything passed the test however the shower base crack will open up, allowing water in causing further damage.
+
+The fiberglass shower tray feels as though it has never been installed correctly, it feels hollow underneath it. When stepping in the shower the tray sags which over time has weakened the fiberglass causing the crack.
+
+
+
+
+To repair the shower tray a full ensuite renovation would be required to remove/replace the shower base.
+
+There is no resultant damage as the insured occupant stopped using the shower in the ensuite, as soon as he noticed the crack in the shower base.
+- Other causation: Crack in shower base  due to incorrect installation
+- Is the damage consistent with the claimed event? Yes
+- Internal Trades/ Repairs: Carpentry,Joinery,Painting,Plastering,Plumbing,Shower screens,Strip out works,Tiling,Wet seal
+- Upload Image of Internal Damage: \\192.168.200.17\cherwellfiles\Jobs\20059515\12.Images\4. Form Images\BuildersAssessmentReportv2-16977598184d8e8ec63069579e5af31d6588a74701.jpeg
+- Upload Image of Internal Damage: \\192.168.200.17\cherwellfiles\Jobs\20059515\12.Images\4. Form Images\BuildersAssessmentReportv2-1697759818bee4ce2abba6fa76a27989526989b0b2.jpeg
+- Upload Image of Internal Damage: \\192.168.200.17\cherwellfiles\Jobs\20059515\12.Images\4. Form Images\BuildersAssessmentReportv2-1697759818d407379e9315d5e0afd768567c7ab51a.jpeg
+- Were there Contents involved in the Claim? : No
+ [/INST] Agent: Agent: Builders Observations accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Building Report Quality
+Answers:
+- Primary Causation: Other
+ [/INST] Agent: Agent: Primary Causation accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Occupant/Insured details of event accurately captured - How, When, What
+Answers:
+- Are there any engineers reports required for this claim? No
+- Conclusion:   The damage to the shower base is consistent with the claimed event. Where the crack is located in the shower base must have been just a weak point in the manufacture of the shower base, this is likely due to the incorrect installation of the shower base. It appears to have no bedding underneath the shower base, as it moves down when you press on it. 
+
+Manufacturers recommend that the shower bases are bedded in on installation, other bases have feet underneath to give support to the shower base. This prevents the plastic bases cracking as they age.
+
+ 
+- Repair Cost: Schedule of Rates
+- Repairs Proceeding within Authorisation Limits: No - Policy Determination Required
+ [/INST] Agent: Agent: Builders Conclusion - clear, concise, correct policy response, correct referral determination </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Appropriate number and quality of photos per affected location
+Answers:
+- Are there customer repairs required? No
+- Are there building defects on the property? No
+ [/INST] Agent: Agent: Pre-existing defects and damage not related to the claimed event accurately captured and labelled </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Builders Observations accurately recorded
+Answers:
+- Date: Tue, Oct 31 2023
+- Time: 09:58 AM
+- Assessment Attended By: Insured 1
+- Dwelling Type: Lowset
+- Total Area m2: 180
+- Construction: concrete block
+- Roof Type: custom orb - colour coated
+- Age of Home: 20
+- Condition: good
+- Asbestos Type: No Asbestos
+- Does the customer require temporary accommodation? No
+- Policy Determination: Accept
+- Is there a possibility for recovery? No
+- Ask Insulation Bats? No
+ [/INST] Agent: Agent: Report Details - Asbestos, Owner Maintenance and Defects, Accommodation - accurately filled out </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Pre-existing defects and damage not related to the claimed event accurately captured and labelled
+Answers:
+- Attended By - Name: Gretal Frumento
+- Type of Claim: Malicious Damage
+- Confirm the Event Date with the insured: 2023-09-28
+- Details Provided by the Occupant: During the night of the 28th of September Gretel Frumento heard a loud bang that came from her garage, upon inspection she saw that there were dents in the middle 2 panels. The INsured found that the damage was caused by juveniles who body slammed the door, they had also damaged 6 other garage doors in the area.
+
+She contacted the police who inspected the property and conducted an investigation.
+
+
+
+
+
+
+ [/INST] Agent: Agent: Occupant/Insured details of event accurately captured - How, When, What </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  
+Answers:
+- Details: During the inspection the Garage door had 2 300mm in diameter dents in the middle 2 panels, and the brackets connecting the panels a through the middle where broken, the door functioned but sagged when in the up position and was bent through the centre.
+
+
+
+
+- Is the damage consistent with the claimed event? Yes
+- External Trades/ Repairs: Carpentry
+- Internal Trades/ Repairs: Electrical,Painting,Plastering
+- Were there Contents involved in the Claim? : No
+ [/INST] Agent: Agent: Builders Observations accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Building Report Quality
+Answers:
+- Primary Causation: Malicious Acts
+ [/INST] Agent: Agent: Primary Causation accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Occupant/Insured details of event accurately captured - How, When, What
+Answers:
+- Are there any engineers reports required for this claim? No
+- Conclusion: The damage noted is consistent with an impact from a body slamming against it, there where not any scratches in the door and it appeared to be in good condition otherwise.
+
+
+
+Resultant Damage to the garage is consistent with malicious damage caused by a third party on the 28th of September which is covered on page 48 of your PDS under malicious damage.
+
+
+
+We will proceed the repairs as per our scope of works within our delegated authority.
+
+
+
+
+- Policy Determination : Claim marked for acceptance
+- Repair Cost: Estimate
+- Repairs Proceeding within Authorisation Limits: Yes - Proceeding as Schedule of Rates
+ [/INST] Agent: Agent: Builders Conclusion - clear, concise, correct policy response, correct referral determination </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Appropriate number and quality of photos per affected location
+Answers:
+- Are there customer repairs required? No
+- Are there building defects on the property? No
+ [/INST] Agent: Agent: Pre-existing defects and damage not related to the claimed event accurately captured and labelled </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Builders Observations accurately recorded
+Answers:
+- Date: Tue, Oct 31 2023
+- Time: 16:32 PM
+- Assessment Attended By: Insured 1
+- Dwelling Type: Split Level
+- Total Area m2: 200 m2 approx.
+- Construction: brick veneer
+- Roof Type: custom orb - zinc
+- Age of Home: 47
+- Condition: good
+- Asbestos Type: Bonded Asbestos - undisturbed no action
+- Does the customer require temporary accommodation? No
+- Policy Determination: Refer to Insurer
+- Ask Insulation Bats? No
+ [/INST] Agent: Agent: Report Details - Asbestos, Owner Maintenance and Defects, Accommodation - accurately filled out </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Pre-existing defects and damage not related to the claimed event accurately captured and labelled
+Answers:
+- Type of Claim: Storm
+- Confirm the Event Date with the insured: 2022-10-28
+- Details Provided by the Occupant: Insured stated that he was awaiting approval for works to proceed after numerous reports & inspections. Insured was explained that because of the roof profile, we can’t replace sheeting like for like and that trim deck is a viable option to which the insured was agreeable to.
+
+
+ [/INST] Agent: Agent: Occupant/Insured details of event accurately captured - How, When, What </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  
+Answers:
+- Details: In my professional opinion the damages are evident of hail strikes, age, wear and tear over a period of time. The house was built in the mid 70s and the roof looks like it is original.
+
+
+- Is the damage consistent with the claimed event? Yes
+- External Trades/ Repairs: Carpentry - cladding,Electrical,Metal Roofing,Painting,Scaffold/ edge protection
+- Would the customer have been reasonably aware of the customer repairs required? Yes
+- Details of customer repairs required: Gutters are rusted & require replacement.
+
+
+- How soon do the customer repairs need to be completed? Shall not prevent repair progress
+- Were there Contents involved in the Claim? : No
+ [/INST] Agent: Agent: Builders Observations accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Building Report Quality
+Answers:
+- Primary Causation: Storm
+ [/INST] Agent: Agent: Primary Causation accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Occupant/Insured details of event accurately captured - How, When, What
+Answers:
+- Are there any engineers reports required for this claim? No
+- Conclusion: In my professional opinion the damages are evident of hail strikes, age, wear and tear over a period of time. Clients are happy with new roof profile & there will be a transition flashing installed where the roof changes pitch.
+
+
+- Repair Cost: Estimate
+- Repairs Proceeding within Authorisation Limits: No - Policy Determination Required
+ [/INST] Agent: Agent: Builders Conclusion - clear, concise, correct policy response, correct referral determination </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Appropriate number and quality of photos per affected location
+Answers:
+- Are there customer repairs required? Yes
+- Are there building defects on the property? No
+ [/INST] Agent: Agent: Pre-existing defects and damage not related to the claimed event accurately captured and labelled </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Builders Observations accurately recorded
+Answers:
+- Date: Thu, Dec 07 2023
+- Time: 07:52 AM
+- Assessment Attended By: Insured 1
+- Dwelling Type: Lowset
+- Total Area m2: 120m2
+- Construction: timber
+- Roof Type: custom orb - zinc
+- Age of Home: 100+
+- Condition: poor
+- Asbestos Type: No Asbestos
+- Does the customer require temporary accommodation? No
+- Policy Determination: Refer to Insurer
+- Is there a possibility for recovery? No
+- Ask Insulation Bats? No
+ [/INST] Agent: Agent: Report Details - Asbestos, Owner Maintenance and Defects, Accommodation - accurately filled out </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Pre-existing defects and damage not related to the claimed event accurately captured and labelled
+Answers:
+- Attended By - Name: Samuel Nixon 
+- Type of Claim: Storm
+- Confirm the Event Date with the insured: 2023-11-06
+- Details Provided by the Occupant: The customer Tony has advised the property has been affected by a recent storm that has caused the house to move on the stumps and blown the entire roof structure off the property. Tony has advised he completes regularly maintenance to the property as they frequently stay at the house on weekends. Maintenance completed included the installation of new plywood flooring to kitchen and master bedroom, replacement of rear patio posts, re-screwing of hardwood timber flooring in dining room and fencing the around the house to prevent animals from entering.
+ [/INST] Agent: Agent: Occupant/Insured details of event accurately captured - How, When, What </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  
+Answers:
+- Details: Upon inspection of the property it is evident the storm event has caused significant damage to the house. The roof structure has been blown off and house resulting in extensive damage to the structural integrity of the house.
+
+The property is around 100 years old and with large amount wear and tear throughout, which is consistent with the age of the property. During our inspection at the property in 2020, it is noted that there stumps around the property did have an evident lean on them and the roof sheeting was also lifting in different locations.
+
+The roof structure and wall framing is made up of hardwood timber which is in average condition. There is no evidence of tie down to the roof structure or wall framing which has contributed to the event, although when the house was built this was not a requirement.
+
+
+
+
+Pre existing damages have been noted to the stumps and subfloor structure throughout the house, as highlighted in the images.
+
+
+
+
+
+
+- Is the damage consistent with the claimed event? Yes
+- Outline defects: We note the dwelling stumps were in poor condition prior to event, and the property is suffering from extensive age, wear and tear.
+- Were there Contents involved in the Claim? : Yes
+ [/INST] Agent: Agent: Builders Observations accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Building Report Quality
+Answers:
+- Primary Causation: Storm
+ [/INST] Agent: Agent: Primary Causation accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Occupant/Insured details of event accurately captured - How, When, What
+Answers:
+- Are there any engineers reports required for this claim? Yes
+- Conclusion: In our professional opinion, the damage is consistent with house movement due to wind forces, however we note that the conditions on the claimed date of loss were noted by the bureau of meteorology to be 41km/h recorded at the closest weather station.
+
+The Beaufort scale of wind force indicates that this is considered a 'Fresh Gale' and likely effects are 'twigs break from trees' and 'walking against the wind is very difficult'. Due to the condition/age of the property, it has not been able to withstand the wind gusts which resulted in extensive damage to the roof structure, external wall framing. The house subfloor and stumps were in poor condition prior to the event, and this has contributed to the movement of the house and its structural integrity. 
+
+
+
+
+It is our opinion that if the house was well maintained and in good condition, the damages would not have occurred, despite the conditions on the date of loss.
+
+
+
+
+Due to the extent of damages, it has been deemed that no repair works could be warranted to the house, and a full rebuild of the house would be required. 
+
+We also note that the rebuilding cost exceeds the sum insured.
+
+
+
+
+In this instance, we refer this claim back to the Insurer for consideration and policy determination, and will await further instruction.
+- Repair Cost: Quote
+- Repairs Proceeding within Authorisation Limits: No - Policy Determination Required
+ [/INST] Agent: Agent: Builders Conclusion - clear, concise, correct policy response, correct referral determination </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Appropriate number and quality of photos per affected location
+Answers:
+- Are there customer repairs required? No
+- Are there building defects on the property? Yes
+ [/INST] Agent: Agent: Pre-existing defects and damage not related to the claimed event accurately captured and labelled </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Builders Observations accurately recorded
+Answers:
+- Date: Mon, Dec 04 2023
+- Time: 16:41 PM
+- Assessment Attended By: insured
+- Dwelling Type: Lowset
+- Total Area m2: 200
+- Construction: brick veneer
+- Roof Type: cliplock
+- Age of Home: 10+
+- Condition: excellent
+- Asbestos Type: No Asbestos
+- Does the customer require temporary accommodation? No
+- Policy Determination: Refer to Insurer
+- Is there a possibility for recovery? No
+ [/INST] Agent: Agent: Report Details - Asbestos, Owner Maintenance and Defects, Accommodation - accurately filled out </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Pre-existing defects and damage not related to the claimed event accurately captured and labelled
+Answers:
+- Attended By - Name: Christine 
+- Type of Claim: Storm
+- Confirm the Event Date with the insured: Tue, Oct 10 2023
+- Details Provided by the Occupant: Ambrose Construct Group attended site on behalf of the insurance company to assess the damages as part of the customers claim. The insured advised that the plaster ceiling had rainwater leaking out from around skylight and down the walls. The insured advised that her husband had siliconed the skylight a few years ago because it had leaked before. The skylight had not leaked until the latest event. She advised that they were thinking of getting rid of the skylight.
+ [/INST] Agent: Agent: Occupant/Insured details of event accurately captured - How, When, What </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  
+Answers:
+- Details: Upon visual inspection of the damages and the property occupant statement, it is evident that the skylight had been leaking. The moisture content of the ceiling plaster beside the skylight was elevated. There were water streak lines on the wall. Inspection of the skylight dome from the inside indicated that the dome had cracks. The skylight has leaked because previous silicone repairs have deteriorated and allowed rain water to enter the skylight and surrounds. The cracks in the skylight dome may also have contributed to the water leak.
+
+Roof report has found the following faults. - Dome Skylight is broken, the flashing to the skylight is built up causing water to pool between the skylight and apron. Replace the skylight and flashings,
+- Is the damage consistent with the claimed event? Yes
+- Internal Trades/ Repairs: Painting
+- Upload Image of Internal Damage: \\192.168.200.17\cherwellfiles\Jobs\20065181\12.Images\4. Form Images\BuildersAssessmentReportv2-17017288381653705b844c7242450cf11a53d49b40.jpeg
+- Upload Image of Internal Damage: \\192.168.200.17\cherwellfiles\Jobs\20065181\12.Images\4. Form Images\BuildersAssessmentReportv2-170172883888769dee27aaa8517ce555d1a3dc602c.jpeg
+- Upload Image of Internal Damage: \\192.168.200.17\cherwellfiles\Jobs\20065181\12.Images\4. Form Images\BuildersAssessmentReportv2-1701728838964915730264a67e050a8f3365999506.jpeg
+- Would the customer have been reasonably aware of the customer repairs required? Yes
+- Details of customer repairs required:   Insured is to have the skylight repaired by a licensed trade, and it very highly recommended that a drypan flashing be installed under the skylight. If the insured was to remove the skylight, it is recommended that a drypan flashing be installed to cover the hole left by the removal of the skylight.  The roof pitch was found to be under pitch for the type of roofing material installed, It is recommended the roof material be changed to kliplok to suit the lower pitch or the roof pitch or change the pitch to suit the trimdek profile that is installed. Replace the skylight and flashings  
+
+
+- How soon do the customer repairs need to be completed? Before the repairs can be started
+- Were there Contents involved in the Claim? : No
+ [/INST] Agent: Agent: Builders Observations accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Building Report Quality
+Answers:
+- Primary Causation: Storm
+ [/INST] Agent: Agent: Primary Causation accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Occupant/Insured details of event accurately captured - How, When, What
+Answers:
+- Are there any engineers reports required for this claim? No
+- Conclusion: It is clear that the the skylight has had silicone repairs carried out previously. The previous repairs had deteriorated, which allowed rain water to enter. We advised the insured to have a dry pan flashing installed to reduce the risk of further leaks in the ceiling. The ceiling plaster has a high moisture reading, which may promote mould growth in the future. The insured had advised that he siliconed the skylight a few years ago because it was leaking, the silicone seal at the time stopped the leaking. Replace the skylight and flashings
+
+As per page 42 of the PDS: WE COVER- We Loss or damage caused by a storm.
+
+The amended roof report will follow this report.
+- Repair Cost: Schedule of Rates
+- Repairs Proceeding within Authorisation Limits: Yes - Proceeding as D&C
+ [/INST] Agent: Agent: Builders Conclusion - clear, concise, correct policy response, correct referral determination </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Appropriate number and quality of photos per affected location
+Answers:
+- Are there customer repairs required? Yes
+- Are there building defects on the property? No
+ [/INST] Agent: Agent: Pre-existing defects and damage not related to the claimed event accurately captured and labelled </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Builders Observations accurately recorded
+Answers:
+- Date: Fri, Dec 15 2023
+- Time: 14:14 PM
+- Assessment Attended By: Insured 1
+- Dwelling Type: Lowset
+- Total Area m2: 372
+- Construction: brick veneer
+- Roof Type: custom orb - colour coated
+- Age of Home: 15
+- Condition: good
+- Asbestos Type: No Asbestos
+- Does the customer require temporary accommodation? No
+- Policy Determination: Accept
+- Is there a possibility for recovery? No
+- Ask Insulation Bats? No
+ [/INST] Agent: Agent: Report Details - Asbestos, Owner Maintenance and Defects, Accommodation - accurately filled out </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Pre-existing defects and damage not related to the claimed event accurately captured and labelled
+Answers:
+- Attended By - Name: Alec Jones 
+- Type of Claim: Storm
+- Confirm the Event Date with the insured: 2023-12-04
+- Details Provided by the Occupant: The insured customer advised the property was damaged during the recent hailstorm event which occurred on the reported date of loss. 
+
+They advised the roof sheeting was only replaced six months ago from a previous claimed event. 
+
+
+ [/INST] Agent: Agent: Occupant/Insured details of event accurately captured - How, When, What </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  
+Answers:
+- Details: RESULTANT DAMAGE
+
+MAIN ROOF 
+
+Hail damage occurred to the roof where dents are evident throughout the roof cover, including roof sheeting, flashings and cappings. The roof requires complete replacement.
+
+Hell damage occurred to the solar panels where some panels are smashed and require full replacement, please see the specialist report attached. 
+
+SHED
+
+Hail damage occurred to the Shed where denting is evident to the roof, requiring complete replacement of the Shed.
+
+
+
+CAUSE OF DAMAGE
+
+
+
+Resultant damage is consistent with hailstones impacting the roof on the reported date of loss. Hail dents are evident on all elevations of the roof. Hail dents are more visible in some areas depending on the direction of the sunlight reflecting over the roof.
+
+Data Obtained from the Bureau of Meteorology confirms that a large storm cell that produced large hail was recorded over South East Queensland on the reported date of loss - 04/12/2023.
+
+
+- Is the damage consistent with the claimed event? Yes
+- External Trades/ Repairs: Carpentry,Metal Roofing,Painting,Solar
+- Were there Contents involved in the Claim? : No
+ [/INST] Agent: Agent: Builders Observations accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Building Report Quality
+Answers:
+- Primary Causation: Storm
+ [/INST] Agent: Agent: Primary Causation accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Occupant/Insured details of event accurately captured - How, When, What
+Answers:
+- Are there any engineers reports required for this claim? No
+- Conclusion: The resulting damage being claimed is consistent with a severe hail storm experienced on the reported date of loss, where denting is evident throughout the property.
+
+Accordingly, we are of the opinion that the claimed damages are covered under the insured PDS.
+
+As the quoted cost of the claim exceeds our delegated authority, we will not proceed with the repair and await further instructions.
+
+
+- Policy Determination : As per the recommendation of the Suncorp assessor during the dual assessment, we believe the resultant damage is covered under the policy PDS. 
+- Repair Cost: Schedule of Rates
+- Repairs Proceeding within Authorisation Limits: Yes - Proceeding as Schedule of Rates
+ [/INST] Agent: Agent: Builders Conclusion - clear, concise, correct policy response, correct referral determination </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Appropriate number and quality of photos per affected location
+Answers:
+- Are there customer repairs required? No
+- Are there building defects on the property? No
+ [/INST] Agent: Agent: Pre-existing defects and damage not related to the claimed event accurately captured and labelled </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Builders Observations accurately recorded
+Answers:
+- Date: Tue, Dec 19 2023
+- Time: 17:46 PM
+- Assessment Attended By: Insured 1
+- Dwelling Type: Lowset
+- Total Area m2: 200
+- Construction: brick veneer
+- Roof Type: custom orb - colour coated
+- Age of Home: 20+
+- Condition: good
+- Does the customer require temporary accommodation? No
+- Policy Determination: Accept
+- Is there a possibility for recovery? No
+- Ask Insulation Bats? No
+ [/INST] Agent: Agent: Report Details - Asbestos, Owner Maintenance and Defects, Accommodation - accurately filled out </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Pre-existing defects and damage not related to the claimed event accurately captured and labelled
+Answers:
+- Attended By - Name: Gayle
+- Type of Claim: Storm
+- Confirm the Event Date with the insured: 2023-12-04
+- Details Provided by the Occupant: Ambrose Construct Group attended site on behalf on the insurance company to assess the damages as part of the customers claim. The property occupant has advised that on the 4.12.23 a storm producing hail had passed over the property potentially causing damage to the roof structure
+
+
+ [/INST] Agent: Agent: Occupant/Insured details of event accurately captured - How, When, What </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  
+Answers:
+- Details: RESULTANT DAMAGE
+
+House
+
+Hail damage occurred to the roof where dents are evident throughout the roof cover, including roof sheeting, flashings and cappings. The roof requires complete replacement.
+
+Garage
+
+Hail damage occurred to the Garage where denting is evident to the roof, requiring complete replacement of the garage.
+
+Pergola
+
+Hail damage occurred to the pergola roof, where denting is evident to multiple panels, requiring replacement. Due to the pergola roof being under pitched at 0 degrees, Ambrose Construct Group have provided a liability quote as we are unable to warrant the repairs to the pergola roof 
+
+
+
+CAUSE OF DAMAGE
+
+Resultant damage is consistent with hailstones impacting the roof on the reported date of loss. Hail dents are evident on all elevations of the roof. Hail dents are more visible in some areas depending on the direction of the sunlight reflecting over the roof.
+
+Data Obtained from the Bureau of Meteorology confirms that a large storm cell that produced large hail was recorded over South East Queensland on the reported date of loss - 04/12/2023.
+
+
+- Is the damage consistent with the claimed event? Yes
+- External Trades/ Repairs: Electrical,Metal Roofing,Plumbing,Scaffold/ edge protection,Solar
+- Outline defects: The pergola roof is underpitched as it is currently at 0 degrees
+- Were there Contents involved in the Claim? : No
+ [/INST] Agent: Agent: Builders Observations accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Building Report Quality
+Answers:
+- Primary Causation: Storm
+ [/INST] Agent: Agent: Primary Causation accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Occupant/Insured details of event accurately captured - How, When, What
+Answers:
+- Are there any engineers reports required for this claim? No
+- Conclusion: In my professional opinion, the damages are consistent with the event and the property occupant observations. 
+
+
+
+The resulting damage being claimed is consistent with a severe hail storm experienced on the reported date of loss, where denting is evident throughout the property.
+
+Accordingly, we are of the opinion that the claimed damages are covered under the insured PDS.
+
+As the quoted cost of the claim exceeds our delegated authority, we will not proceed with the repair and await further instructions.
+
+
+- Repair Cost: Schedule of Rates
+- Repairs Proceeding within Authorisation Limits: No - Exceeds D&C limit
+ [/INST] Agent: Agent: Builders Conclusion - clear, concise, correct policy response, correct referral determination </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Appropriate number and quality of photos per affected location
+Answers:
+- Are there customer repairs required? No
+- Are there building defects on the property? Yes
+ [/INST] Agent: Agent: Pre-existing defects and damage not related to the claimed event accurately captured and labelled </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Builders Observations accurately recorded
+Answers:
+- Date: Mon, Dec 18 2023
+- Time: 17:10 PM
+- Assessment Attended By: insured
+- Dwelling Type: Highset
+- Total Area m2: 200
+- Construction: timber & masonry
+- Roof Type: custom orb - colour coated
+- Age of Home: 70
+- Condition: good
+- Asbestos Type: Bonded Asbestos - undisturbed no action
+- : To repaint, the lining will require scraping to remove the bubbles and lose paint. Therefore removal is required. 
+- Does the customer require temporary accommodation? No
+- Policy Determination: Refer to Insurer
+- Is there a possibility for recovery? No
+- Ask Insulation Bats? No
+ [/INST] Agent: Agent: Report Details - Asbestos, Owner Maintenance and Defects, Accommodation - accurately filled out </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Pre-existing defects and damage not related to the claimed event accurately captured and labelled
+Answers:
+- Attended By - Name: Tom and Lone 
+- Type of Claim: Storm
+- Confirm the Event Date with the insured: 2023-12-15
+- Details Provided by the Occupant: Ambrose Construct Group attended site on behalf of the insurance company to assess the damages as part of the customers claim. The insured Tom and Lone advised that a cyclonic type conditions hit their house on Friday evening. There was heavy rain at the time the highwinds hit. The winds blow the gas BBQ off the decking and doors of the cupboard. The heavy rains flooded into the eaves sheets which caused bubbling to the eave sheet paints. The insured also advised that the highwinds stretched the front shade sail, causing the sail to sage which it did not do before the event. 
+
+
+ [/INST] Agent: Agent: Occupant/Insured details of event accurately captured - How, When, What </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  
+Answers:
+- Details: Upon visual inspection of the damages and the property occupant statement it is evident that the heavy rain and strong winds caused the rain water to flood back into the eave sheets. The water has soaked through the asbestos lining eave sheets and caused the paint to bubble. As the eave sheets are asbestos the sheets will need to be removed and replaced with hardiflex FC sheeting.
+
+The front shade sail appears to be sagging, The insured advised the shade sail did not sage before the high winds stretched the fabric and possibly the stainless steel perimeter wire. The shade sail cannot be tighten any more as the turn buckles are already adjusted in fully. A Liability quote has been supplied as due to the size of the sail and the amount of fixing points, ACG cannot supply a warrantable product that will not stretch again
+
+
+- Is the damage consistent with the claimed event? Yes
+- External Trades/ Repairs: Carpentry,Painting,Shade sails
+- Would the customer have been reasonably aware of the customer repairs required? No
+- Were there Contents involved in the Claim? : Yes
+ [/INST] Agent: Agent: Builders Observations accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Building Report Quality
+Answers:
+- Primary Causation: Storm
+ [/INST] Agent: Agent: Primary Causation accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Occupant/Insured details of event accurately captured - How, When, What
+Answers:
+- Are there any engineers reports required for this claim? No
+- Conclusion: The insured described the Highwinds as cyclonic. The wings were strong enough to blow the barbecue away from its position, also blow the doors off the cupboard under the eave on the rear decking. The rain was heavy enough to cause the water to ingress into the eaves sheeting causing the water to seep through the eave sheets and the paint to bubble. The insured has informed me that the eave sheets are asbestos, which will be required to be removed and replaced to bring back top pre-existing condition.
+
+The front shade sail appears to move excessively in the wind due to the shade sail being stretched. The turn buckles cannot be adjusted any more to remove the slack. The shade sail has been stretched from the strong winds. The shade sail requires remaking to bring the shade sail back to pre-existing condition.  Due to the size and minimal fixing points the of the shade sail, the shade sail may stretch again, therefore a Liability quote is supplied.  
+
+
+- Repair Cost: Schedule of Rates
+- Repairs Proceeding within Authorisation Limits:  No - Policy Determination Required
+ [/INST] Agent: Agent: Builders Conclusion - clear, concise, correct policy response, correct referral determination </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Appropriate number and quality of photos per affected location
+Answers:
+- Are there customer repairs required? No
+- Are there building defects on the property? No
+ [/INST] Agent: Agent: Pre-existing defects and damage not related to the claimed event accurately captured and labelled </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Builders Observations accurately recorded
+Answers:
+- Date: Mon, Dec 18 2023
+- Time: 15:33 PM
+- Assessment Attended By: Insured 1
+- Dwelling Type: Highset
+- Total Area m2: 200
+- Construction: brick veneer
+- Roof Type: concrete roof tile
+- Age of Home: 20+
+- Condition: good
+- Asbestos Type: No Asbestos
+- Does the customer require temporary accommodation? No
+- Policy Determination: Refer to Insurer
+- Is there a possibility for recovery? No
+- Ask Insulation Bats? No
+ [/INST] Agent: Agent: Report Details - Asbestos, Owner Maintenance and Defects, Accommodation - accurately filled out </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Pre-existing defects and damage not related to the claimed event accurately captured and labelled
+Answers:
+- Attended By - Name: Paul Bolton
+- Type of Claim: Storm
+- Confirm the Event Date with the insured: 2023-12-15
+- Details Provided by the Occupant: Ambrose Construct Group attended site on behalf of the insurance company, to assess the damages as part of the customers claim. The insured advised that he and his wife were sitting at home when a storm passed over, knocking down a pencil pine tree at the front of their house which bought down an electrical wire attached to their roof and pulled out roofing tiles. SES and Energex have attended site. Have reconnected the power and the SES has completed a MakeSafe on the roof.
+ [/INST] Agent: Agent: Occupant/Insured details of event accurately captured - How, When, What </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  
+Answers:
+- Details: Ambrose Construct have attended site to review the claim on behalf of the insurer.
+
+RESULTANT DAMAGE
+
+Our inspection investigated resultant storm damage claim to:
+
+ROOF
+
+RESULTANT DAMAGE 
+
+Damage has occurred to the concrete roof tiles, where tiles have been dislodged and broken, with a section of approximately 4m2 requiring replacement. 
+
+Damage has also occurred to the parapet wall capping which is bent and requires replacement.  
+
+We note that the affected electrical POC had been reinstated by the service provider, and a make safe undertaken by the SES to mitigate further damages. 
+
+Please note further damages may be identified during the repair process, if so a variation would be applied.
+
+CAUSE OF DAMAGE
+
+We investigated the cause of the storm wind damage and observed:
+
+ROOF
+
+The damage was caused by high winds during the event, which caused a nearby tree to fall, impacting the electrical POC cable and metal wall capping.
+
+We can confirm that on Friday the 15/12/23 fast-moving storms brought strong winds, wind driven heavy rain and large Hail to south-east Queensland.
+
+The Bureau of Meteorology recorded a wind gust of 169kph at Archerfield Airport in southern Brisbane at 4:31pm
+
+The bureau described the storm as ""very dangerous"" With 19,000 properties losing power.
+
+As per page 42 of the PDS, We cover, loss or damage caused by a storm.
+- Is the damage consistent with the claimed event? Yes
+- External Trades/ Repairs: Metal Roofing,Roof tiling
+- Were there Contents involved in the Claim? : No
+ [/INST] Agent: Agent: Builders Observations accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Building Report Quality
+Answers:
+- Primary Causation: Storm
+ [/INST] Agent: Agent: Primary Causation accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Occupant/Insured details of event accurately captured - How, When, What
+Answers:
+- Are there any engineers reports required for this claim? No
+- Conclusion: Resultant damage to the roof is consistent with strong storm winds, which caused a nearby tree to fall, impacting the electrical POC cable and metal wall capping.
+
+Damage has occurred to the concrete roof tiles, where tiles have been dislodged and broken, with a section of approximately 4m2 requiring replacement. 
+
+Damage has also occurred to the parapet wall capping which is bent and requires replacement.  
+
+We will not proceed with repairs and await further instructions.
+- Repair Cost: Schedule of Rates
+- Repairs Proceeding within Authorisation Limits: No - Policy Determination Required
+ [/INST] Agent: Agent: Builders Conclusion - clear, concise, correct policy response, correct referral determination </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Appropriate number and quality of photos per affected location
+Answers:
+- Are there customer repairs required? No
+- Are there building defects on the property? No
+ [/INST] Agent: Agent: Pre-existing defects and damage not related to the claimed event accurately captured and labelled </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Builders Observations accurately recorded
+Answers:
+- Date: Wed, Jan 17 2024
+- Time: 08:06 AM
+- Assessment Attended By: Insured 1
+- Dwelling Type: Lowset
+- Total Area m2: 400
+- Construction: concrete block
+- Roof Type: custom orb - colour coated
+- Age of Home: 41
+- Condition: good
+- Asbestos Type: No Asbestos
+- Does the customer require temporary accommodation? No
+- Policy Determination: Accept
+- Is there a possibility for recovery? No
+- Ask Insulation Bats? No
+ [/INST] Agent: Agent: Report Details - Asbestos, Owner Maintenance and Defects, Accommodation - accurately filled out </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Pre-existing defects and damage not related to the claimed event accurately captured and labelled
+Answers:
+- Attended By - Name: Penny Johnson
+- Type of Claim: Flood
+- Confirm the Event Date with the insured: 2023-12-18
+- Details Provided by the Occupant: Ambrose Construct Group have been informed by the insured that their two properties have been inundated by flood water to a height of 1.8m high from the flooding associated with Cyclone Jasper in mid December, 2023. The flood water was in the property for 48 hours and once the water levels subsided they contacted their insurer to lodge a claim for the flood damages. 
+
+
+ [/INST] Agent: Agent: Occupant/Insured details of event accurately captured - How, When, What </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  
+Answers:
+- Details: Ambrose Construct have carried out a building assessment at premises on 16/01/2024 at approximately 7:00AM ;in the presence of the property contact Penny Johnson. We report that the insured property is an approx 400m2 home of concrete block construction with a colourbond roof covering. The property is approximately 40 years old and has been maintained in good condition. The insured premises consists of two separate dwellings which has been separated in our scope to reflect the main house and the shed house. 
+
+The flood water height reached 1.8m within the insured properties and we have allowed for a full height strip out in our scope of works. The floor tiles were inspected and found to be drummy throughout the dwellings.
+
+ During our assessment, we identified numerous areas of concern regarding building compliance and pre-existing damages. Termite damage was identified to the main house along with non-compliant wet areas to both main house and shed house. 
+
+The shed house does not appear to have been built with council approval and does not comply with current building codes. The wet areas are non-compliant with the AS3740. Excessive building movement and settlement cracks have been identified throughout the property. 
+
+
+
+The insured also mentioned that they would like to make structural revisions to their property which would fall outside the insured scope of works. Due to this request, they may seek cash settlement for the repairs. 
+
+
+- Is the damage consistent with the claimed event? No
+- Outline defects: Excessive building settlement cracks identified throughout the property and wet areas do not comply with AS3740 standards.
+- Were there Contents involved in the Claim? : No
+ [/INST] Agent: Agent: Builders Observations accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Building Report Quality
+Answers:
+- Primary Causation: Flood
+ [/INST] Agent: Agent: Primary Causation accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Occupant/Insured details of event accurately captured - How, When, What
+Answers:
+- Are there any engineers reports required for this claim? No
+- Conclusion: It is our professional opinion that the resultant damages claimed by the insured are consistent with the claimed event, flood water has entered the property due to cyclone Jasper and have reached a height of 1.8m in the property two dwellings home and shed. A full height strip has been completed and LQ scope has been provided due to pre-existing damage, non compliance issues and insured would like to make structural changes.
+- Policy Determination : Property damage is consistent with flood inundation from Cyclone Jasper 
+- Repair Cost: Estimate
+- Repairs Proceeding within Authorisation Limits: No - Building not to Code
+ [/INST] Agent: Agent: Builders Conclusion - clear, concise, correct policy response, correct referral determination </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Appropriate number and quality of photos per affected location
+Answers:
+- Are there customer repairs required? No
+- Are there building defects on the property? Yes
+ [/INST] Agent: Agent: Pre-existing defects and damage not related to the claimed event accurately captured and labelled </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Builders Observations accurately recorded
 Answers:
 - Date: Mon, Jan 29 2024
 - Time: 13:26 PM
@@ -15,8 +1606,8 @@ Answers:
 - Policy Determination: Accept
 - Is there a possibility for recovery? No
 - Ask Insulation Bats? No
- [/INST] Agent: Clear return note to Submissions team </s>"
-"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Occupant/Insured details of event accurately captured - How, When, What
+ [/INST] Agent: Agent: Report Details - Asbestos, Owner Maintenance and Defects, Accommodation - accurately filled out </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Pre-existing defects and damage not related to the claimed event accurately captured and labelled
 Answers:
 - Attended By - Name: Graig 
 - Type of Claim: Storm
@@ -28,8 +1619,8 @@ Also discovered water leaking from the soffit above the front door. Advised that
 Graig also advised that he discovered broken tiles on the roof.
 
 
- [/INST] Agent: Builders Observations accurately recorded </s>"
-"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Builders Observations accurately recorded
+ [/INST] Agent: Agent: Occupant/Insured details of event accurately captured - How, When, What </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  
 Answers:
 - Details: Upon visual inspection of the damages and the property occupant statement it is evident that a storm event has caused damage to the patio roof and the excessive rain fall has caused damage to the kitchen ceiling and front door soffit.
 
@@ -52,12 +1643,12 @@ As per PDS page 42. We Cover - Loss or damage caused by a storm.
 - Details of customer repairs required: Insured is too regularly clean the leaf debris from the valleys and gutters and install gutter guard
 - How soon do the customer repairs need to be completed? Immediately to avoid further damages
 - Were there Contents involved in the Claim? : No
- [/INST] Agent: Primary Causation accurately recorded </s>"
-"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Primary Causation accurately recorded
+ [/INST] Agent: Agent: Builders Observations accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Building Report Quality
 Answers:
 - Primary Causation: Storm
- [/INST] Agent: Builders Conclusion - clear, concise, correct policy response, correct referral determination </s>"
-"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Builders Conclusion - clear, concise, correct policy response, correct referral determination
+ [/INST] Agent: Agent: Primary Causation accurately recorded </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Occupant/Insured details of event accurately captured - How, When, What
 Answers:
 - Are there any engineers reports required for this claim? No
 - Conclusion: Upon visual inspection of the damages and the property occupant statement it is evident that a storm event has caused damage to the patio roof and the excessive rain fall has caused damage to the kitchen ceiling and front door soffit.
@@ -77,9 +1668,9 @@ As per PDS page 42. We Cover - Loss or damage caused by a storm.
  
 - Repair Cost: Schedule of Rates
 - Repairs Proceeding within Authorisation Limits: Yes - Proceeding as Schedule of Rates
- [/INST] Agent: Report Details - Asbestos, Owner Maintenance and Defects, Accomodation - accurately filled out </s>"
-"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Pre-existing defects and damage not related to the claimed event accurately captured and labelled
+ [/INST] Agent: Agent: Builders Conclusion - clear, concise, correct policy response, correct referral determination </s>"
+"<s>[INST] <<SYS>> Review the responses for the audit question, highlight any required responses (*) not provided, ignore others. Where a response is unsatisfactory provide comments about why the response isn't correct and provide details about how the response can be improved.. <</SYS>> Question: Question:  Appropriate number and quality of photos per affected location
 Answers:
 - Are there customer repairs required? Yes
 - Are there building defects on the property? No
- [/INST] Agent: Occupant/Insured details of event accurately captured - How, When, What </s>"
+ [/INST] Agent: Agent: Pre-existing defects and damage not related to the claimed event accurately captured and labelled </s>"

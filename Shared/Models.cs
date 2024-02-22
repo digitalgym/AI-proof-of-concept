@@ -13,7 +13,7 @@
     }
     public class TSAAuditResponse
     {
-        public string Index { get; set; }
+        public int Index { get; set; }
         public string Note { get; set; }
         public string Status { get; set; }
         public int Score { get; set; }
